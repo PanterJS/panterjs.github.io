@@ -4,10 +4,12 @@ Un catalogo digitale minimalista per mostrare la propria collezione di cactus e 
 
 ## 📁 Struttura del Progetto
 
-* `index.html`: La struttura principale e la logica di rendering.
-* `style.css`: Design responsive a tema desertico.
-* `data.json`: Il "database" del progetto. Modifica questo file per aggiungere nuove piante.
-* `imgs/`: Cartella destinata a contenere le foto dei cactus.
+* `index.html` - Struttura della pagina.
+* `style.css` - Design e layout.
+* `script.js` - Logica JavaScript (fetch dei dati).
+* `data.json` - Database dei cactus.
+* `imgs/` - Cartella immagini cactus.
+* `downloads/` - Cartella documenti PDF.
 
 ## 🚀 Come aggiungere nuovi cactus
 
