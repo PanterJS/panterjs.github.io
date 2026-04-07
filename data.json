@@ -1,0 +1,22 @@
+{
+  "cactus": [
+    {
+      "nome": "Echinocactus grusonii",
+      "soprannome": "Sedile della Suocera",
+      "descrizione": "Una pianta sferica con spine dorate spettacolari.",
+      "immagine": "https://images.unsplash.com/photo-1520302630591-fd1c66ed8180?q=80&w=400"
+    },
+    {
+      "nome": "Opuntia ficus-indica",
+      "soprannome": "Fico d'India",
+      "descrizione": "Classico cactus a pale, produce frutti dolcissimi.",
+      "immagine": "https://images.unsplash.com/photo-1551846230-01997097950a?q=80&w=400"
+    },
+    {
+      "nome": "Lophophora williamsii",
+      "soprannome": "Peyote",
+      "descrizione": "Piccolo cactus globoso senza spine, molto raro.",
+      "immagine": "https://images.unsplash.com/photo-1621460248085-703350493012?q=80&w=400"
+    }
+  ]
+}
