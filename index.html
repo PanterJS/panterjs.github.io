@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cactus Garden 🌵</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌵 La Mia Collezione di Cactus</h1>
+        <p>Benvenuti nel mio deserto personale.</p>
+    </header>
+
+    <main id="cactus-container">
+        </main>
+
+    <script>
+        // Funzione per caricare i dati dal file JSON
+        async function loadCactus() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                const container = document.getElementById('cactus-container');
+
+                data.cactus.forEach(item => {
+                    const card = `
+                        <div class="card">
+                            <img src="${item.immagine}" alt="${item.nome}">
+                            <div class="card-content">
+                                <span class="badge">${item.soprannome}</span>
+                                h3>${item.nome}</h3>
+                                <p>${item.descrizione}</p>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+            } catch (error) {
+                console.error("Errore nel caricamento dei dati:", error);
+                document.getElementById('cactus-container').innerHTML = "<p>Oh no! Le piante sono appassite (Errore nel caricamento).</p>";
+            }
+        }
+
+        // Avvia il caricamento
+        loadCactus();
+    </script>
+</body>
+</html>
