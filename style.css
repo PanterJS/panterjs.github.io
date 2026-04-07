@@ -77,3 +77,45 @@ h1 {
     font-size: 0.8rem;
     margin-bottom: 10px;
 }
+
+/* Sezione Download */
+.download-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--sage);
+    color: white;
+    margin-top: 50px;
+}
+
+.download-section h2 {
+    margin-top: 0;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn-download {
+    background-color: var(--terracotta);
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.btn-download:hover {
+    background-color: #b36b4d; /* Un terracotta leggermente più scuro */
+    transform: scale(1.05);
+}
+
+.btn-download span {
+    margin-left: 8px;
+}
