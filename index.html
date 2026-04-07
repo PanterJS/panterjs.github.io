@@ -3,47 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cactus Garden 🌵</title>
+    <title>🌵 My Cactus Collection 🌵</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>🌵 La Mia Collezione di Cactus</h1>
-        <p>Benvenuti nel mio deserto personale.</p>
+        <h1>🌵 My Cactus Garden 🌵</h1>
+        <p>Un prototipo per la mia collezione botanica</p>
     </header>
 
     <main id="cactus-container">
         </main>
 
     <script>
-        // Funzione per caricare i dati dal file JSON
         async function loadCactus() {
             try {
                 const response = await fetch('data.json');
                 const data = await response.json();
                 const container = document.getElementById('cactus-container');
 
-                data.cactus.forEach(item => {
-                    const card = `
-                        <div class="card">
-                            <img src="${item.immagine}" alt="${item.nome}">
-                            <div class="card-content">
-                                <span class="badge">${item.soprannome}</span>
-                                <h3>${item.nome}</h3>
-                                <p>${item.descrizione}</p>
-                            </div>
+                container.innerHTML = data.cactus.map(item => `
+                    <article class="card">
+                        <img src="${item.immagine}" alt="${item.nome}" onerror="this.src='https://via.placeholder.com/400x250?text=Immagine+Mancante'">
+                        <div class="card-content">
+                            <span class="badge">${item.soprannome}</span>
+                            <h3>${item.nome}</h3>
+                            <p>${item.descrizione}</p>
                         </div>
-                    `;
-                    container.innerHTML += card;
-                });
+                    </article>
+                `).join('');
+                
             } catch (error) {
-                console.error("Errore nel caricamento dei dati:", error);
-                document.getElementById('cactus-container').innerHTML = "<p>Oh no! Le piante sono appassite (Errore nel caricamento).</p>";
+                console.error("Errore:", error);
+                document.getElementById('cactus-container').innerHTML = "<p>Errore nel caricamento del database JSON.</p>";
             }
         }
 
-        // Avvia il caricamento
         loadCactus();
     </script>
 </body>
