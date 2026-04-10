@@ -23,3 +23,5 @@ Un catalogo digitale minimalista per mostrare la propria collezione di cactus e 
      "descrizione": "Breve storia della pianta.",
      "immagine": "imgs/nome-file.jpg"
    }
+
+## Sviluppatore principale → IO :)
