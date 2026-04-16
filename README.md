@@ -1,6 +1,6 @@
-# 🌵 My Cactus Prototipo
+# 🌵 My Cactus Collection
 
-Un catalogo digitale minimalista per mostrare la propria collezione di cactus e piante grasse. Sviluppato per essere leggero, veloce e pronto per **GitHub Pages**.
+Un catalogo digitale minimalista per mostrare la mia collezione di cactus e piante succulente. Essendo una pagina personale non vincolata ad alcuno scopo se non il **mio interesse nella programmazione** e per rimanere un po in allenamento con lo sviluppo Web, il sito può presentare problemi/limitazioni che veranno via via sistemate, assieme all'introduzione di nuovi contenuti e features.
 
 ## 📁 Struttura del Progetto
 
