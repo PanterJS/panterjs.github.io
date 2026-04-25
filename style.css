@@ -46,7 +46,9 @@ header {
 .card img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    object-fit: cover; 
+    /* Aggiungi questa riga per migliorare la qualità del ridimensionamento */
+    image-rendering: -webkit-optimize-contrast; 
 }
 
 .card-content {
