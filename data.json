@@ -23,6 +23,38 @@
       "difficolta": 4,
       "descrizione": "Piccolo cactus globoso senza spine, molto raro.",
       "immagine": "imgs/peyote.jpg"
+    },
+    {
+      "nome": "Pleiospilos nelii",
+      "soprannome": "Sasso Vivente",
+      "tipo": "Succulenta",
+      "difficolta": 3,
+      "descrizione": "Originaria del Sudafrica, sembra una pietra spaccata a metà. Produce fiori simili a margherite.",
+      "immagine": "imgs/pleiospilos.jpg"
+    },
+    {
+      "nome": "Stenocereus thurberi",
+      "soprannome": "Cactus a Canne d'Organo",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Un maestoso cactus a colonna che cresce in gruppi, tipico del deserto di Sonora.",
+      "immagine": "imgs/stenocereus.jpg"
+    },
+    {
+      "nome": "Kroenleinia grusonii",
+      "soprannome": "Cuscino della Suocera",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Precedentemente noto come Echinocactus grusonii, è il re dei cactus sferici con spine dorate.",
+      "immagine": "imgs/grusonii.jpg"
+    },
+    {
+      "nome": "Euphorbia horrida",
+      "soprannome": "Barile Africano",
+      "tipo": "Succulenta",
+      "difficolta": 3,
+      "descrizione": "Nonostante l'aspetto da cactus, è una succulenta africana. Nota per le sue creste irregolari e spinose.",
+      "immagine": "imgs/euphorbia-horrida.jpg"
     }
   ]
 }
