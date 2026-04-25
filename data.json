@@ -22,7 +22,7 @@
       "tipo": "Succulenta",
       "difficolta": 3,
       "descrizione": "Originaria del Sudafrica, sembra una pietra spaccata a metà. Produce fiori simili a margherite.",
-      "immagine": "imgs/pleiospilos.jpg"
+      "immagine": "imgs/pleiospilos.jpeg"
     },
     {
       "nome": "Stenocereus thurberi",
@@ -38,7 +38,7 @@
       "tipo": "Cactus",
       "difficolta": 2,
       "descrizione": "Precedentemente noto come Echinocactus grusonii, è il re dei cactus sferici con spine dorate.",
-      "immagine": "imgs/grusonii.jpg"
+      "immagine": "imgs/grusonii.jpeg"
     },
     {
       "nome": "Euphorbia horrida",
