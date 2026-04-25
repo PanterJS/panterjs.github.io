@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cactus Collection 🌵</title>
+    <title>🌵 My Cactus Collection 🌵</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>🌵 My Cactus Garden</h1>
-        <p>Prototipo collezione botanica</p>
+        <h1>🌵 My Cactus Garden 🌵</h1>
+        <p>Piccolo sito dove mettro in mostra la mia piccola collezione botanica di Cactus e Succulente (o almeno ci provo 😜)</p>
     </header>
 
     <main id="cactus-container">
@@ -28,6 +28,14 @@
             </a>
         </div>
     </section>
+
+    <dialog id="image-viewer" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="full-image" src="" alt="Vista ingrandita">
+            <h2 id="modal-caption"></h2>
+        </div>
+    </dialog>
 
     <script src="script.js"></script>
 </body>
