@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch('data.json');
             if (!response.ok) throw new Error('Errore caricamento database');
             const data = await response.json();
+            
+            data.piante.sort((a, b) => a.nome.localeCompare(b.nome));
 
             // Usiamo data.piante (assicurati che il JSON sia aggiornato con questa chiave)
             container.innerHTML = data.piante.map(item => `
