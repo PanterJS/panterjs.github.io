@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('cactus-container');
 
-    // Funzione per generare le stelline in base al numero (1-5)
     function generaStelle(livello) {
         const piena = '★';
         const vuota = '☆';
@@ -12,11 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadCactus() {
         try {
             const response = await fetch('data.json');
-            if (!response.ok) throw new Error('Errore nel caricamento del file JSON');
-
+            if (!response.ok) throw new Error('Errore JSON');
             const data = await response.json();
 
-            // Usiamo data.piante (come nel tuo nuovo JSON)
             container.innerHTML = data.piante.map(item => `
                 <article class="card">
                     <img src="${item.immagine}" alt="${item.nome}" onerror="this.src='https://via.placeholder.com/400x250?text=Immagine+Mancante'">
@@ -33,12 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </article>
             `).join('');
-
         } catch (error) {
-            console.error("Errore:", error);
-            container.innerHTML = `<p style="text-align:center;">🌵 Errore: ${error.message}</p>`;
+            container.innerHTML = `<p>Errore: ${error.message}</p>`;
         }
     }
-
     loadCactus();
 });
