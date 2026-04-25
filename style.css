@@ -1,3 +1,4 @@
+/* VARIABILI E BASE */
 :root {
     --desert-green: #4b6043;
     --sage: #8da083;
@@ -8,23 +9,27 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: var(--sand);
-    color: var(--dark);
     margin: 0;
     padding: 20px;
 }
 
+/* HEADER - Ripristinato */
 header {
     text-align: center;
     padding: 40px 0;
+    border-bottom: 3px solid var(--desert-green);
 }
 
+h1 { color: var(--desert-green); font-size: 2.5rem; }
+
+/* GRIGLIA E CARD */
 #cactus-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
-    padding: 20px;
+    padding: 40px 0;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -34,75 +39,70 @@ header {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
-}
-
-.card:hover {
-    transform: translateY(-5px);
 }
 
 .card img {
     width: 100%;
     height: 250px;
-    object-fit: cover; 
-    /* Aggiungi questa riga per migliorare la qualità del ridimensionamento */
-    image-rendering: -webkit-optimize-contrast; 
+    object-fit: cover; /* Sistema le proporzioni delle foto */
 }
 
-.card-content {
-    padding: 20px;
-}
+.card-content { padding: 20px; }
 
-/* Allineamento Badge e Tipo */
+/* NUOVE ETICHETTE */
 .card-header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.tag-tipo {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--desert-green);
+    border: 1px solid var(--desert-green);
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 .badge {
     background: var(--sage);
     color: white;
-    padding: 4px 12px;
+    padding: 5px 10px;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
-.tag-tipo {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--desert-green);
-    border: 1px solid var(--desert-green);
-    padding: 2px 8px;
-    border-radius: 5px;
-}
-
-h3 {
-    margin: 10px 0;
-    color: var(--terracotta);
-}
-
-p {
-    font-size: 0.9rem;
-    color: #666;
-    line-height: 1.4;
-}
-
-/* Sezione Difficoltà */
 .difficulty {
-    margin-top: auto;
-    padding-top: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
     border-top: 1px solid #eee;
     font-size: 0.85rem;
-    font-weight: bold;
 }
 
-.stars {
-    color: var(--gold);
-    margin-left: 5px;
-    letter-spacing: 2px;
+.stars { color: var(--gold); }
+
+/* FOOTER/DOWNLOAD - Ripristinato */
+.download-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--sage);
+    color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.btn-download {
+    background-color: var(--terracotta);
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
 }
