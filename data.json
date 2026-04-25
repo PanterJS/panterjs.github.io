@@ -1,14 +1,6 @@
 {
   "piante": [
     {
-      "nome": "Echinocactus grusonii",
-      "soprannome": "Sedile della Suocera",
-      "tipo": "Cactus",
-      "difficolta": 2,
-      "descrizione": "Una pianta sferica con spine dorate spettacolari.",
-      "immagine": "imgs/grusonii.jpg"
-    },
-    {
       "nome": "Opuntia ficus-indica",
       "soprannome": "Fico d'India",
       "tipo": "Cactus",
