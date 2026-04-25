@@ -1,12 +1,76 @@
 {
   "piante": [
     {
-      "nome": "Opuntia ficus-indica",
-      "soprannome": "Fico d'India",
-      "tipo": "Cactus",
+      "nome": "Agave americana",
+      "soprannome": "Agave Secolare",
+      "tipo": "Succulenta",
       "difficolta": 1,
-      "descrizione": "Classico cactus a pale, produce frutti dolcissimi.",
-      "immagine": "imgs/opuntia.jpg"
+      "descrizione": "Una pianta imponente e resistentissima, tipica dei climi mediterranei.",
+      "immagine": "imgs/agave-americana.jpg"
+    },
+    {
+      "nome": "Agave americana striata",
+      "soprannome": "Agave Striata",
+      "tipo": "Succulenta",
+      "difficolta": 2,
+      "descrizione": "Varietà ornamentale con bellissime striature gialle o crema lungo le foglie.",
+      "immagine": "imgs/agave-striata.jpg"
+    },
+    {
+      "nome": "Aloe vera",
+      "soprannome": "Aloe",
+      "tipo": "Succulenta",
+      "difficolta": 1,
+      "descrizione": "Famosa per le sue proprietà lenitive, è una delle succulente più facili da coltivare.",
+      "immagine": "imgs/aloe-vera.jpg"
+    },
+    {
+      "nome": "Anacampseros rufescens f. variegata",
+      "soprannome": "Anacampseros",
+      "tipo": "Succulenta",
+      "difficolta": 3,
+      "descrizione": "Piccola succulenta con sfumature che vanno dal rosa al viola, molto decorativa.",
+      "immagine": "imgs/anacampseros.jpg"
+    },
+    {
+      "nome": "Chamaecereus silvestrii",
+      "soprannome": "Cactus Arachide",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio in primavera.",
+      "immagine": "imgs/chamaecereus-silvestrii.jpg"
+    },
+    {
+      "nome": "Crassula tetragona",
+      "soprannome": "Pino in Miniatura",
+      "tipo": "Succulenta",
+      "difficolta": 2,
+      "descrizione": "Portamento eretto che ricorda un piccolo abete; foglie carnose disposte a croce.",
+      "immagine": "imgs/crassula-tetragona.jpg"
+    },
+    {
+      "nome": "Euphorbia horrida",
+      "soprannome": "Barile Africano",
+      "tipo": "Succulenta",
+      "difficolta": 3,
+      "descrizione": "Nonostante l'aspetto da cactus, è una succulenta africana. Nota per le sue creste irregolari e spinose.",
+      "immagine": "imgs/euphorbia-horrida.jpg"
+    },
+    {
+      "nome": "Euphorbia horrida crestata",
+      "soprannome": "Euforbia Crestata",
+      "tipo": "Succulenta",
+      "difficolta": 4,
+      "descrizione": "Una forma mutata e affascinante della Horrida, cresce creando sculture naturali uniche.",
+      "immagine": "imgs/euphorbia-crestata.jpg"
+    },
+    {
+      "nome": "Kroenleinia grusonii",
+      "soprannome": "Cuscino della Suocera",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Precedentemente noto come Echinocactus grusonii, è il re dei cactus sferici con spine dorate.",
+      "immagine": "imgs/grusonii.jpg"
     },
     {
       "nome": "Lophophora williamsii",
@@ -17,12 +81,44 @@
       "immagine": "imgs/peyote.jpg"
     },
     {
+      "nome": "Opuntia ficus-indica",
+      "soprannome": "Fico d'India",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Classico cactus a pale, produce frutti dolcissimi.",
+      "immagine": "imgs/opuntia.jpg"
+    },
+    {
+      "nome": "Parodia magnifica",
+      "soprannome": "Parodia",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Cactus globoso verde-azzurro con coste ben definite e spine dorate sottili.",
+      "immagine": "imgs/parodia-magnifica.jpg"
+    },
+    {
       "nome": "Pleiospilos nelii",
       "soprannome": "Sasso Vivente",
       "tipo": "Succulenta",
       "difficolta": 3,
       "descrizione": "Originaria del Sudafrica, sembra una pietra spaccata a metà. Produce fiori simili a margherite.",
-      "immagine": "imgs/pleiospilos.jpeg"
+      "immagine": "imgs/pleiospilos.jpg"
+    },
+    {
+      "nome": "Sedum cauticola ‘Lidakense’",
+      "soprannome": "Erba della Misericordia",
+      "tipo": "Succulenta",
+      "difficolta": 2,
+      "descrizione": "Bellissima pianta tappezzante con foglie grigio-blu e fioritura rosa intenso autunnale.",
+      "immagine": "imgs/sedum-lidakense.jpg"
+    },
+    {
+      "nome": "Sedum rubrotinctum",
+      "soprannome": "Erba Cristallina",
+      "tipo": "Succulenta",
+      "difficolta": 1,
+      "descrizione": "Foglie a forma di chicco di riso che diventano rosso fuoco se esposte al sole.",
+      "immagine": "imgs/sedum-rubrotinctum.jpg"
     },
     {
       "nome": "Stenocereus thurberi",
@@ -31,22 +127,6 @@
       "difficolta": 2,
       "descrizione": "Un maestoso cactus a colonna che cresce in gruppi, tipico del deserto di Sonora.",
       "immagine": "imgs/stenocereus.jpg"
-    },
-    {
-      "nome": "Kroenleinia grusonii",
-      "soprannome": "Cuscino della Suocera",
-      "tipo": "Cactus",
-      "difficolta": 2,
-      "descrizione": "Precedentemente noto come Echinocactus grusonii, è il re dei cactus sferici con spine dorate.",
-      "immagine": "imgs/grusonii.jpeg"
-    },
-    {
-      "nome": "Euphorbia horrida",
-      "soprannome": "Barile Africano",
-      "tipo": "Succulenta",
-      "difficolta": 3,
-      "descrizione": "Nonostante l'aspetto da cactus, è una succulenta africana. Nota per le sue creste irregolari e spinose.",
-      "immagine": "imgs/euphorbia-horrida.jpg"
     }
   ]
 }
