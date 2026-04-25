@@ -1,6 +1,6 @@
 # 🌵 My Cactus Collection
 
-Un catalogo digitale minimalista per mostrare la mia collezione di cactus e piante succulente. Essendo una pagina personale non vincolata ad alcuno scopo se non il **mio interesse nella programmazione** e per rimanere un po in allenamento con lo sviluppo Web, il sito può presentare problemi/limitazioni che veranno via via sistemate, assieme all'introduzione di nuovi contenuti e features.
+Un catalogo digitale minimalista per mostrare la mia collezione di cactus e piante succulente. Questo sito web è del tutto personale e non è vincolato ad alcuno scopo se non il **mio interesse nella programmazione** (oltre a rimanere un po in allenamento con lo sviluppo Web). Il sito può presentare problemi/limitazioni che veranno via via sistemate, assieme all'introduzione di nuovi contenuti e features dal sottoscritto quando ne avrà tempo :grinning:.
 
 ## 📁 Struttura del Progetto
 
