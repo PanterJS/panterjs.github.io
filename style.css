@@ -119,3 +119,36 @@ h1 {
 .btn-download span {
     margin-left: 8px;
 }
+
+.card-tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag-tipo {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--desert-green);
+    font-weight: bold;
+    border: 1px solid var(--desert-green);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.difficulty {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--dark);
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.stars {
+    color: #f1c40f; /* Giallo oro per le stelline */
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
