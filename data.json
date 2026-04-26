@@ -5,23 +5,23 @@
       "soprannome": "Agave Secolare",
       "tipo": "Succulenta",
       "difficolta": 1,
-      "descrizione": "Una pianta imponente e resistentissima, tipica dei climi mediterranei.",
+      "descrizione": "Maestosa e resistente, con foglie grigio-verdi che terminano con una spina acuta.",
       "immagine": "imgs/agave-americana.jpg"
     },
     {
-      "nome": "Agave americana striata",
-      "soprannome": "Agave Striata",
+      "nome": "Agave americana variegata",
+      "soprannome": "Agave Variegata",
       "tipo": "Succulenta",
       "difficolta": 2,
-      "descrizione": "Varietà ornamentale con bellissime striature gialle o crema lungo le foglie.",
-      "immagine": "imgs/agave-striata.jpg"
+      "descrizione": "Bellissima varietà ornamentale caratterizzata da foglie verdi con vistosi margini giallo crema.",
+      "immagine": "imgs/agave-variegata.jpg"
     },
     {
       "nome": "Aloe vera",
       "soprannome": "Aloe",
       "tipo": "Succulenta",
       "difficolta": 1,
-      "descrizione": "Famosa per le sue proprietà lenitive, è una delle succulente più facili da coltivare.",
+      "descrizione": "Pianta officinale celebre per il gel lenitivo contenuto nelle sue foglie carnose.",
       "immagine": "imgs/aloe-vera.jpg"
     },
     {
@@ -29,15 +29,31 @@
       "soprannome": "Anacampseros",
       "tipo": "Succulenta",
       "difficolta": 3,
-      "descrizione": "Piccola succulenta con sfumature che vanno dal rosa al viola, molto decorativa.",
+      "descrizione": "Piccola rosetta dai colori cangianti tra il verde, il rosa e il viola.",
       "immagine": "imgs/anacampseros.jpg"
+    },
+    {
+      "nome": "Aeonium haworthii",
+      "soprannome": "Aeonium",
+      "tipo": "Succulenta",
+      "difficolta": 2,
+      "descrizione": "Cresce come un piccolo arbusto con rosette verde-azzurro bordate di rosso.",
+      "immagine": "imgs/aeonium-haworthii.jpg"
+    },
+    {
+      "nome": "Cereus jamacaru f. mostruosus",
+      "soprannome": "Cactus Mostruoso",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Forma mutata che cresce in modo irregolare creando sculture colonnari uniche.",
+      "immagine": "imgs/cereus-jamacaru-mostruosus.jpg"
     },
     {
       "nome": "Chamaecereus silvestrii",
       "soprannome": "Cactus Arachide",
       "tipo": "Cactus",
       "difficolta": 2,
-      "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio in primavera.",
+      "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio.",
       "immagine": "imgs/chamaecereus-silvestrii.jpg"
     },
     {
@@ -45,15 +61,47 @@
       "soprannome": "Pino in Miniatura",
       "tipo": "Succulenta",
       "difficolta": 2,
-      "descrizione": "Portamento eretto che ricorda un piccolo abete; foglie carnose disposte a croce.",
+      "descrizione": "Succulenta eretta con foglie appuntite che ricordano un piccolo pino.",
       "immagine": "imgs/crassula-tetragona.jpg"
+    },
+    {
+      "nome": "Echinocereus delaetii",
+      "soprannome": "Cactus Vecchietto",
+      "tipo": "Cactus",
+      "difficolta": 3,
+      "descrizione": "Ricoperto da lunghi peli bianchi che nascondono le spine, simile al Cephalocereus.",
+      "immagine": "imgs/echinocereus-delaetii.jpg"
+    },
+    {
+      "nome": "Echinocereus viereckii subs. morricalii",
+      "soprannome": "Echinocereus",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Cactus quasi privo di spine con fusti verde brillante e grandi fiori viola.",
+      "immagine": "imgs/echinocereus-morricalii.jpg"
+    },
+    {
+      "nome": "Echinopsis eyriesii",
+      "soprannome": "Giglio di Pasqua",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Famoso per i suoi fiori bianchi notturni enormi e profumatissimi.",
+      "immagine": "imgs/echinopsis-eyriesii.jpg"
+    },
+    {
+      "nome": "Echinopsis multiplex",
+      "soprannome": "Cactus a Palla",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Molto prolifico, crea gruppi di sfere spinose e spettacolari fiori rosa.",
+      "immagine": "imgs/echinopsis-multiplex.jpg"
     },
     {
       "nome": "Euphorbia horrida",
       "soprannome": "Barile Africano",
       "tipo": "Succulenta",
       "difficolta": 3,
-      "descrizione": "Nonostante l'aspetto da cactus, è una succulenta africana. Nota per le sue creste irregolari e spinose.",
+      "descrizione": "Somiglia a un cactus ma è una Euforbia con creste irregolari e spinose.",
       "immagine": "imgs/euphorbia-horrida.jpg"
     },
     {
@@ -61,15 +109,39 @@
       "soprannome": "Euforbia Crestata",
       "tipo": "Succulenta",
       "difficolta": 4,
-      "descrizione": "Una forma mutata e affascinante della Horrida, cresce creando sculture naturali uniche.",
+      "descrizione": "Forma crestata molto ricercata, cresce a ventaglio creando sculture naturali.",
       "immagine": "imgs/euphorbia-crestata.jpg"
+    },
+    {
+      "nome": "Ferocactus histrix",
+      "soprannome": "Barile di Spine",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Cactus globoso con coste pronunciate e robuste spine gialle.",
+      "immagine": "imgs/ferocactus-histrix.jpg"
+    },
+    {
+      "nome": "Graptopetalum paraguayense",
+      "soprannome": "Pianta Fantasma",
+      "tipo": "Succulenta",
+      "difficolta": 1,
+      "descrizione": "Rosette grigio-lavanda molto resistenti, si propaga facilmente da foglia.",
+      "immagine": "imgs/graptopetalum-paraguayense.jpg"
+    },
+    {
+      "nome": "Kalanchoe daigremontiana",
+      "soprannome": "Madre di Migliaia",
+      "tipo": "Succulenta",
+      "difficolta": 1,
+      "descrizione": "Produce centinaia di nuove piantine lungo i bordi delle foglie.",
+      "immagine": "imgs/kalanchoe-daigremontiana.jpg"
     },
     {
       "nome": "Kroenleinia grusonii",
       "soprannome": "Cuscino della Suocera",
       "tipo": "Cactus",
       "difficolta": 2,
-      "descrizione": "Precedentemente noto come Echinocactus grusonii, è il re dei cactus sferici con spine dorate.",
+      "descrizione": "Classico cactus sferico con spine dorate; diventa imponente con gli anni.",
       "immagine": "imgs/grusonii.jpg"
     },
     {
@@ -77,23 +149,111 @@
       "soprannome": "Peyote",
       "tipo": "Succulenta",
       "difficolta": 4,
-      "descrizione": "Piccolo cactus globoso senza spine, molto raro.",
+      "descrizione": "Piccolo cactus globoso senza spine, dalla crescita estremamente lenta.",
       "immagine": "imgs/peyote.jpg"
+    },
+    {
+      "nome": "Mammillaria backebergiana",
+      "soprannome": "Mammillaria",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Fusto cilindrico che produce una 'corona' di piccoli fiori rosa sulla cima.",
+      "immagine": "imgs/mammillaria-backebergiana.jpg"
+    },
+    {
+      "nome": "Mammillaria elongata",
+      "soprannome": "Dita di Dama",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Cactus colonnare sottile che forma densi cuscini, con spine gialle disposte a stella.",
+      "immagine": "imgs/mammillaria-elongata.jpg"
+    },
+    {
+      "nome": "Mammillaria longimamma",
+      "soprannome": "Mammillaria dita lunghe",
+      "tipo": "Cactus",
+      "difficolta": 3,
+      "descrizione": "Caratterizzata da tubercoli (capezzoli) insolitamente lunghi e grandi fiori gialli.",
+      "immagine": "imgs/mammillaria-longimamma.jpg"
     },
     {
       "nome": "Opuntia ficus-indica",
       "soprannome": "Fico d'India",
       "tipo": "Cactus",
       "difficolta": 1,
-      "descrizione": "Classico cactus a pale, produce frutti dolcissimi.",
+      "descrizione": "Iconico cactus a pale che produce i celebri frutti commestibili.",
       "immagine": "imgs/opuntia.jpg"
+    },
+    {
+      "nome": "Opuntia microdasys albina",
+      "soprannome": "Ali d'Angelo Bianche",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Varietà con piccoli ciuffi di spine (glochidi) di colore bianco candido.",
+      "immagine": "imgs/opuntia-albina.jpg"
+    },
+    {
+      "nome": "Opuntia microdasys arancio",
+      "soprannome": "Ali d'Angelo Arancio",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Caratterizzata da glochidi color ruggine o arancione intenso.",
+      "immagine": "imgs/opuntia-arancio.jpg"
+    },
+    {
+      "nome": "Opuntia microdasys gialla",
+      "soprannome": "Ali d'Angelo Gialle",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "La classica varietà con glochidi giallo oro disposti regolarmente sulle pale.",
+      "immagine": "imgs/opuntia-gialla.jpg"
+    },
+    {
+      "nome": "Opuntia microdasys subs. rufida Indigo",
+      "soprannome": "Opuntia Indigo",
+      "tipo": "Cactus",
+      "difficolta": 3,
+      "descrizione": "Varietà rara con pale tendenti al bluastro e glochidi rossicci.",
+      "immagine": "imgs/opuntia-indigo.jpg"
+    },
+    {
+      "nome": "Opuntia monacantha",
+      "soprannome": "Opuntia",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Cactus a pale verde brillante con lunghe spine singole.",
+      "immagine": "imgs/opuntia-monacantha.jpg"
+    },
+    {
+      "nome": "Opuntia monacantha f. mostruosa variegata",
+      "soprannome": "Opuntia Variegata",
+      "tipo": "Cactus",
+      "difficolta": 2,
+      "descrizione": "Forma nana e mostruosa con macchie bianche o crema sulle pale.",
+      "immagine": "imgs/opuntia-monacantha-variegata.jpg"
+    },
+    {
+      "nome": "Opuntia subulata",
+      "soprannome": "Aghi d'Eva",
+      "tipo": "Cactus",
+      "difficolta": 1,
+      "descrizione": "Cactus colonnare con lunghe spine e piccole foglie rudimentali che sembrano aghi.",
+      "immagine": "imgs/opuntia-subulata.jpg"
+    },
+    {
+      "nome": "Opuntia tuna f. crestata",
+      "soprannome": "Opuntia Crestata",
+      "tipo": "Cactus",
+      "difficolta": 3,
+      "descrizione": "Varietà che cresce formando onde e creste simili a un corallo.",
+      "immagine": "imgs/opuntia-tuna-crestata.jpg"
     },
     {
       "nome": "Parodia magnifica",
       "soprannome": "Parodia",
       "tipo": "Cactus",
       "difficolta": 2,
-      "descrizione": "Cactus globoso verde-azzurro con coste ben definite e spine dorate sottili.",
+      "descrizione": "Sfera azzurrognola con coste parallele e spine dorate sottili.",
       "immagine": "imgs/parodia-magnifica.jpg"
     },
     {
@@ -101,31 +261,39 @@
       "soprannome": "Sasso Vivente",
       "tipo": "Succulenta",
       "difficolta": 3,
-      "descrizione": "Originaria del Sudafrica, sembra una pietra spaccata a metà. Produce fiori simili a margherite.",
+      "descrizione": "Sembra una pietra spaccata; richiede pochissima acqua.",
       "immagine": "imgs/pleiospilos.jpg"
     },
     {
       "nome": "Sedum cauticola ‘Lidakense’",
-      "soprannome": "Erba della Misericordia",
+      "soprannome": "Sedum Blu",
       "tipo": "Succulenta",
       "difficolta": 2,
-      "descrizione": "Bellissima pianta tappezzante con foglie grigio-blu e fioritura rosa intenso autunnale.",
+      "descrizione": "Tappezzante con foglie grigio-blu e fiori rosa autunnali.",
       "immagine": "imgs/sedum-lidakense.jpg"
+    },
+    {
+      "nome": "Sedum palmeri",
+      "soprannome": "Sedum di Palmer",
+      "tipo": "Succulenta",
+      "difficolta": 1,
+      "descrizione": "Resistentissima al gelo, fiorisce in giallo intenso a fine inverno.",
+      "immagine": "imgs/sedum-palmeri.jpg"
     },
     {
       "nome": "Sedum rubrotinctum",
       "soprannome": "Erba Cristallina",
       "tipo": "Succulenta",
       "difficolta": 1,
-      "descrizione": "Foglie a forma di chicco di riso che diventano rosso fuoco se esposte al sole.",
+      "descrizione": "Foglie simili a chicchi di riso che diventano rosso fuoco al sole.",
       "immagine": "imgs/sedum-rubrotinctum.jpg"
     },
     {
       "nome": "Stenocereus thurberi",
-      "soprannome": "Cactus a Canne d'Organo",
+      "soprannome": "Organ Pipe",
       "tipo": "Cactus",
       "difficolta": 2,
-      "descrizione": "Un maestoso cactus a colonna che cresce in gruppi, tipico del deserto di Sonora.",
+      "descrizione": "Maestoso cactus a canne d'organo tipico del deserto di Sonora.",
       "immagine": "imgs/stenocereus.jpg"
     }
   ]
