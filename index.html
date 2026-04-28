@@ -9,8 +9,30 @@
 <body>
     <header>
         <h1>🌵 My Cactus Garden 🌵</h1>
-        <p>Piccolo sito dove mettro in mostra la mia piccola collezione botanica di Cactus e Succulente (o almeno ci provo 😜)</p>
+        <p>
+            Piccolo sito dove mettro in mostra la mia piccola collezione botanica di Cactus e Succulente con alcune 
+            info e curiosità (o almeno ci provo 😜)
+        </p>
+        <p>Collezione botanica: <strong><span id="species-count">0</span></strong> specie caricate</p>
     </header>
+
+    <nav class="controls">
+        <div class="filter-group">
+            <label>Ordina per:</label>
+            <select id="sort-select">
+                <option value="nome">Nome (A-Z)</option>
+                <option value="difficolta">Impegno (Crescente)</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Filtra per Genere:</label>
+            <select id="filter-type">
+                <option value="all">Tutti</option>
+                <option value="Cactus">Cactus</option>
+                <option value="Succulenta">Succulente</option>
+            </select>
+        </div>
+    </nav>
 
     <main id="cactus-container">
         <p style="text-align:center;">Caricamento piante in corso...</p>

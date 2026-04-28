@@ -167,3 +167,41 @@ h3 {
 }
 
 .btn-download:hover { transform: scale(1.05); }
+
+/* Filtri */
+.controls {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.filter-group label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--desert-green);
+}
+
+.filter-group select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--sage);
+}
+
+/* Nuove Info Famiglia e Origine */
+.extra-info {
+    font-size: 0.85rem;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 4px solid var(--sage);
+}
+
+.extra-info p { margin: 3px 0; }

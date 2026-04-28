@@ -4,6 +4,8 @@
       "nome": "Agave americana",
       "soprannome": "Agave Secolare",
       "tipo": "Succulenta",
+      "famiglia": "Asparagaceae",
+      "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Maestosa e resistente, con foglie grigio-verdi che terminano con una spina acuta.",
       "immagine": "imgs/agave-americana.jpg"
@@ -12,6 +14,8 @@
       "nome": "Agave americana variegata",
       "soprannome": "Agave Variegata",
       "tipo": "Succulenta",
+      "famiglia": "Asparagaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Bellissima varietà ornamentale caratterizzata da foglie verdi con vistosi margini giallo crema.",
       "immagine": "imgs/agave-variegata.jpg"
@@ -20,6 +24,8 @@
       "nome": "Aloe vera",
       "soprannome": "Aloe",
       "tipo": "Succulenta",
+      "famiglia": "Asphodelaceae",
+      "origine": "Penisola Arabica",
       "difficolta": 1,
       "descrizione": "Pianta officinale celebre per il gel lenitivo contenuto nelle sue foglie carnose.",
       "immagine": "imgs/aloe-vera.jpg"
@@ -28,6 +34,8 @@
       "nome": "Anacampseros rufescens f. variegata",
       "soprannome": "Anacampseros",
       "tipo": "Succulenta",
+      "famiglia": "Anacampserotaceae",
+      "origine": "Sudafrica",
       "difficolta": 3,
       "descrizione": "Piccola rosetta dai colori cangianti tra il verde, il rosa e il viola.",
       "immagine": "imgs/anacampseros.jpg"
@@ -36,6 +44,8 @@
       "nome": "Aeonium haworthii",
       "soprannome": "Aeonium",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Isole Canarie",
       "difficolta": 2,
       "descrizione": "Cresce come un piccolo arbusto con rosette verde-azzurro bordate di rosso.",
       "immagine": "imgs/aeonium-haworthii.jpg"
@@ -44,6 +54,8 @@
       "nome": "Cereus jamacaru f. mostruosus",
       "soprannome": "Cactus Mostruoso",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Brasile",
       "difficolta": 2,
       "descrizione": "Forma mutata che cresce in modo irregolare creando sculture colonnari uniche.",
       "immagine": "imgs/cereus-jamacaru-mostruosus.jpg"
@@ -52,6 +64,8 @@
       "nome": "Chamaecereus silvestrii",
       "soprannome": "Cactus Arachide",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Argentina",
       "difficolta": 2,
       "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio.",
       "immagine": "imgs/chamaecereus-silvestrii.jpg"
@@ -60,6 +74,8 @@
       "nome": "Crassula tetragona",
       "soprannome": "Pino in Miniatura",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Sudafrica",
       "difficolta": 2,
       "descrizione": "Succulenta eretta con foglie appuntite che ricordano un piccolo pino.",
       "immagine": "imgs/crassula-tetragona.jpg"
@@ -68,6 +84,8 @@
       "nome": "Echinocereus delaetii",
       "soprannome": "Cactus Vecchietto",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 3,
       "descrizione": "Ricoperto da lunghi peli bianchi che nascondono le spine, simile al Cephalocereus.",
       "immagine": "imgs/echinocereus-delaetii.jpg"
@@ -76,6 +94,8 @@
       "nome": "Echinocereus viereckii subs. morricalii",
       "soprannome": "Echinocereus",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus quasi privo di spine con fusti verde brillante e grandi fiori viola.",
       "immagine": "imgs/echinocereus-morricalii.jpg"
@@ -84,6 +104,8 @@
       "nome": "Echinopsis eyriesii",
       "soprannome": "Giglio di Pasqua",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Brasile/Argentina",
       "difficolta": 1,
       "descrizione": "Famoso per i suoi fiori bianchi notturni enormi e profumatissimi.",
       "immagine": "imgs/echinopsis-eyriesii.jpg"
@@ -92,6 +114,8 @@
       "nome": "Echinopsis multiplex",
       "soprannome": "Cactus a Palla",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Brasile/Argentina",
       "difficolta": 1,
       "descrizione": "Molto prolifico, crea gruppi di sfere spinose e spettacolari fiori rosa.",
       "immagine": "imgs/echinopsis-multiplex.jpg"
@@ -100,6 +124,8 @@
       "nome": "Euphorbia horrida",
       "soprannome": "Barile Africano",
       "tipo": "Succulenta",
+      "famiglia": "Euphorbiaceae",
+      "origine": "Sudafrica",
       "difficolta": 3,
       "descrizione": "Somiglia a un cactus ma è una Euforbia con creste irregolari e spinose.",
       "immagine": "imgs/euphorbia-horrida.jpg"
@@ -108,6 +134,8 @@
       "nome": "Euphorbia horrida crestata",
       "soprannome": "Euforbia Crestata",
       "tipo": "Succulenta",
+      "famiglia": "Euphorbiaceae",
+      "origine": "Sudafrica",
       "difficolta": 4,
       "descrizione": "Forma crestata molto ricercata, cresce a ventaglio creando sculture naturali.",
       "immagine": "imgs/euphorbia-crestata.jpg"
@@ -116,6 +144,8 @@
       "nome": "Ferocactus histrix",
       "soprannome": "Barile di Spine",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus globoso con coste pronunciate e robuste spine gialle.",
       "immagine": "imgs/ferocactus-histrix.jpg"
@@ -124,6 +154,8 @@
       "nome": "Graptopetalum paraguayense",
       "soprannome": "Pianta Fantasma",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Messico (Tamaulipas)",
       "difficolta": 1,
       "descrizione": "Rosette grigio-lavanda molto resistenti, si propaga facilmente da foglia.",
       "immagine": "imgs/graptopetalum-paraguayense.jpg"
@@ -132,6 +164,8 @@
       "nome": "Kalanchoe daigremontiana",
       "soprannome": "Madre di Migliaia",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Madagascar",
       "difficolta": 1,
       "descrizione": "Produce centinaia di nuove piantine lungo i bordi delle foglie.",
       "immagine": "imgs/kalanchoe-daigremontiana.jpg"
@@ -140,6 +174,8 @@
       "nome": "Kroenleinia grusonii",
       "soprannome": "Cuscino della Suocera",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico (Hidalgo)",
       "difficolta": 2,
       "descrizione": "Classico cactus sferico con spine dorate; diventa imponente con gli anni.",
       "immagine": "imgs/grusonii.jpg"
@@ -148,6 +184,8 @@
       "nome": "Lophophora williamsii",
       "soprannome": "Peyote",
       "tipo": "Succulenta",
+      "famiglia": "Cactaceae",
+      "origine": "Messico/USA (Texas)",
       "difficolta": 4,
       "descrizione": "Piccolo cactus globoso senza spine, dalla crescita estremamente lenta.",
       "immagine": "imgs/peyote.jpg"
@@ -156,6 +194,8 @@
       "nome": "Mammillaria backebergiana",
       "soprannome": "Mammillaria",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Fusto cilindrico che produce una 'corona' di piccoli fiori rosa sulla cima.",
       "immagine": "imgs/mammillaria-backebergiana.jpg"
@@ -164,6 +204,8 @@
       "nome": "Mammillaria elongata",
       "soprannome": "Dita di Dama",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico (Hidalgo)",
       "difficolta": 1,
       "descrizione": "Cactus colonnare sottile che forma densi cuscini, con spine gialle disposte a stella.",
       "immagine": "imgs/mammillaria-elongata.jpg"
@@ -172,6 +214,8 @@
       "nome": "Mammillaria longimamma",
       "soprannome": "Mammillaria dita lunghe",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 3,
       "descrizione": "Caratterizzata da tubercoli (capezzoli) insolitamente lunghi e grandi fiori gialli.",
       "immagine": "imgs/mammillaria-longimamma.jpg"
@@ -180,6 +224,8 @@
       "nome": "Opuntia ficus-indica",
       "soprannome": "Fico d'India",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Iconico cactus a pale che produce i celebri frutti commestibili.",
       "immagine": "imgs/opuntia.jpg"
@@ -188,6 +234,8 @@
       "nome": "Opuntia microdasys albina",
       "soprannome": "Ali d'Angelo Bianche",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Varietà con piccoli ciuffi di spine (glochidi) di colore bianco candido.",
       "immagine": "imgs/opuntia-albina.jpg"
@@ -196,6 +244,8 @@
       "nome": "Opuntia microdasys arancio",
       "soprannome": "Ali d'Angelo Arancio",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Caratterizzata da glochidi color ruggine o arancione intenso.",
       "immagine": "imgs/opuntia-arancio.jpg"
@@ -204,6 +254,8 @@
       "nome": "Opuntia microdasys gialla",
       "soprannome": "Ali d'Angelo Gialle",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
       "difficolta": 2,
       "descrizione": "La classica varietà con glochidi giallo oro disposti regolarmente sulle pale.",
       "immagine": "imgs/opuntia-gialla.jpg"
@@ -212,6 +264,8 @@
       "nome": "Opuntia microdasys subs. rufida Indigo",
       "soprannome": "Opuntia Indigo",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico (Chihuahua)",
       "difficolta": 3,
       "descrizione": "Varietà rara con pale tendenti al bluastro e glochidi rossicci.",
       "immagine": "imgs/opuntia-indigo.jpg"
@@ -220,6 +274,8 @@
       "nome": "Opuntia monacantha",
       "soprannome": "Opuntia",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "America del Sud",
       "difficolta": 1,
       "descrizione": "Cactus a pale verde brillante con lunghe spine singole.",
       "immagine": "imgs/opuntia-monacantha.jpg"
@@ -228,6 +284,8 @@
       "nome": "Opuntia monacantha f. mostruosa variegata",
       "soprannome": "Opuntia Variegata",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "America del Sud",
       "difficolta": 2,
       "descrizione": "Forma nana e mostruosa con macchie bianche o crema sulle pale.",
       "immagine": "imgs/opuntia-monacantha-variegata.jpg"
@@ -236,6 +294,8 @@
       "nome": "Opuntia subulata",
       "soprannome": "Aghi d'Eva",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Perù/Argentina",
       "difficolta": 1,
       "descrizione": "Cactus colonnare con lunghe spine e piccole foglie rudimentali che sembrano aghi.",
       "immagine": "imgs/opuntia-subulata.jpg"
@@ -244,6 +304,8 @@
       "nome": "Opuntia tuna f. crestata",
       "soprannome": "Opuntia Crestata",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "America Centrale/Caraibi",
       "difficolta": 3,
       "descrizione": "Varietà che cresce formando onde e creste simili a un corallo.",
       "immagine": "imgs/opuntia-tuna-crestata.jpg"
@@ -252,6 +314,8 @@
       "nome": "Parodia magnifica",
       "soprannome": "Parodia",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Brasile (Rio Grande do Sul)",
       "difficolta": 2,
       "descrizione": "Sfera azzurrognola con coste parallele e spine dorate sottili.",
       "immagine": "imgs/parodia-magnifica.jpg"
@@ -260,14 +324,18 @@
       "nome": "Pleiospilos nelii",
       "soprannome": "Sasso Vivente",
       "tipo": "Succulenta",
+      "famiglia": "Aizoaceae",
+      "origine": "Sudafrica (Karoo)",
       "difficolta": 3,
       "descrizione": "Sembra una pietra spaccata; richiede pochissima acqua.",
       "immagine": "imgs/pleiospilos.jpg"
     },
     {
-      "nome": "Sedum cauticola ‘Lidakense’",
+      "nome": "Sedum cauticola 'Lidakense'",
       "soprannome": "Sedum Blu",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Giappone",
       "difficolta": 2,
       "descrizione": "Tappezzante con foglie grigio-blu e fiori rosa autunnali.",
       "immagine": "imgs/sedum-lidakense.jpg"
@@ -276,6 +344,8 @@
       "nome": "Sedum palmeri",
       "soprannome": "Sedum di Palmer",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Resistentissima al gelo, fiorisce in giallo intenso a fine inverno.",
       "immagine": "imgs/sedum-palmeri.jpg"
@@ -284,6 +354,8 @@
       "nome": "Sedum rubrotinctum",
       "soprannome": "Erba Cristallina",
       "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Foglie simili a chicchi di riso che diventano rosso fuoco al sole.",
       "immagine": "imgs/sedum-rubrotinctum.jpg"
@@ -292,9 +364,81 @@
       "nome": "Stenocereus thurberi",
       "soprannome": "Organ Pipe",
       "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico/USA (Arizona)",
       "difficolta": 2,
       "descrizione": "Maestoso cactus a canne d'organo tipico del deserto di Sonora.",
       "immagine": "imgs/stenocereus.jpg"
+    },
+    {
+      "nome": "Opuntia dillenii",
+      "soprannome": "Fico d'India Costiero",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Caraibi/USA Sud-orientale",
+      "difficolta": 2,
+      "descrizione": "Pale verdi con lunghe spine gialle, produce fiori gialli e frutti violacei.",
+      "immagine": "imgs/opuntia-dillenii.jpg"
+    },
+    {
+      "nome": "Stenocactus multicostatus zacatecasensis",
+      "soprannome": "Cactus Cervello",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico (Zacatecas)",
+      "difficolta": 3,
+      "descrizione": "Caratterizzato da moltissime coste sottili e ondulate che ricordano un cervello.",
+      "immagine": "imgs/stenocactus-zacatecasensis.jpg"
+    },
+    {
+      "nome": "Rebutia muscula",
+      "soprannome": "Cactus Gomitolo",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Bolivia",
+      "difficolta": 2,
+      "descrizione": "Piccolo cactus globoso interamente ricoperto da soffici spine bianche; fiorisce in arancione vivace.",
+      "immagine": "imgs/rebutia-muscula.jpg"
+    },
+    {
+      "nome": "Gymnocalycium ferrarii",
+      "soprannome": "Gimnocalycium",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Argentina",
+      "difficolta": 2,
+      "descrizione": "Corpo grigio-verde con coste pronunciate e fiori che variano dal bianco al rosa pallido.",
+      "immagine": "imgs/gymnocalycium-ferrarii.jpg"
+    },
+    {
+      "nome": "Melocactus bahiensis",
+      "soprannome": "Melocactus",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Brasile (Bahia)",
+      "difficolta": 4,
+      "descrizione": "Cactus globoso che sviluppa un 'cefalo' lanoso sulla sommità una volta raggiunta la maturità.",
+      "immagine": "imgs/melocactus-bahiensis.jpg"
+    },
+    {
+      "nome": "Notocactus schlosseri",
+      "soprannome": "Parodia Schlosseri",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Uruguay",
+      "difficolta": 2,
+      "descrizione": "Forma sferica con spine fitte color rame e fiori giallo brillante.",
+      "immagine": "imgs/notocactus-schlosseri.jpg"
+    },
+    {
+      "nome": "Gymnocalycium quehlianum",
+      "soprannome": "Mento di Vecchio",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Argentina",
+      "difficolta": 2,
+      "descrizione": "Cactus solitario e schiacciato, noto per la sua resistenza e i fiori bianchi con gola rossa.",
+      "immagine": "imgs/gymnocalycium-quehlianum.jpg"
     }
   ]
 }
