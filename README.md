@@ -21,6 +21,8 @@ Un catalogo digitale minimalista per mostrare la mia collezione di cactus e pian
      "nome": "Nome Scientifico",
      "soprannome": "Nome Comune",
      "tipo": "Cactus o Succulenta",
+     "famiglia": "Nome famiglia",
+     "origine": "Luogo di origine",
      "difficolta": da 1 a 5,
      "descrizione": "Breve storia della pianta.",
      "immagine": "imgs/nome-file.jpg"
