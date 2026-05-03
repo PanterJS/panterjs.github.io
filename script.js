@@ -1,73 +1,57 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('cactus-container');
-    const speciesCount = document.getElementById('species-count');
+    const speciesCount = document.getElementById('species-count'); // Ripristinato
     const viewer = document.getElementById('image-viewer');
     const fullImg = document.getElementById('full-image');
     const caption = document.getElementById('modal-caption');
     const closeBtn = document.querySelector('.close-modal');
-    
-    let allPlants = []; // Qui salveremo i dati scaricati
+    const backToTopBtn = document.getElementById("backToTop"); // Spostato qui dentro
+
+    let allPlants = [];
 
     function generaStelle(livello) {
-        return '★'.repeat(livello) + '☆'.repeat(5 - livello);
+        const rating = Math.min(Math.max(livello, 1), 5);
+        return '★'.repeat(rating) + '☆'.repeat(5 - rating);
     }
 
     async function loadCactus() {
         try {
             const response = await fetch('data.json?v=' + Date.now());
+            if (!response.ok) throw new Error('Errore caricamento database');
             const data = await response.json();
+            
             allPlants = data.piante;
+            if (speciesCount) speciesCount.innerText = allPlants.length; // Aggiorna contatore
             
-            // Aggiorna il contatore specie
-            speciesCount.innerText = allPlants.length;
-            
-            // Carica le card iniziali
             renderCards(allPlants);
         } catch (error) {
-            container.innerHTML = `<p style="text-align:center;">🌵 Errore caricamento database.</p>`;
+            container.innerHTML = `<p style="text-align:center;">🌵 Errore: ${error.message}</p>`;
         }
     }
 
     function renderCards(plants) {
-        const sortVal = document.getElementById('sort-select').value;
-        const filterVal = document.getElementById('filter-type').value;
-
-        // 1. Applica Filtro Genere
-        let filtered = plants.filter(p => filterVal === 'all' || p.tipo === filterVal);
-        
-        // 2. Applica Ordinamento
-        filtered.sort((a, b) => {
-            if (sortVal === 'nome') return a.nome.localeCompare(b.nome);
-            if (sortVal === 'difficolta') return a.difficolta - b.difficolta;
-            return 0;
-        });
-
-        // 3. Genera HTML
-        container.innerHTML = filtered.map(item => `
+        container.innerHTML = plants.map(item => `
             <article class="card">
-                <img src="${item.immagine}" class="zoomable" alt="${item.nome}" onerror="this.src='https://via.placeholder.com/400x250?text=Immagine+Mancante'">
+                <img src="${item.immagine}" class="zoomable" alt="${item.nome}" 
+                     onerror="this.src='https://via.placeholder.com/400x250?text=Immagine+Mancante'">
                 <div class="card-content">
-                    <div class="card-header-flex" style="display:flex; justify-content:space-between; align-items:center;">
+                    <div class="card-header-flex">
                         <span class="badge">${item.soprannome}</span>
                         <span class="tag-tipo">${item.tipo}</span>
                     </div>
                     <h3>${item.nome}</h3>
-                    
                     <div class="extra-info">
-                        <p><strong>Famiglia:</strong> ${item.famiglia || 'Non specificata'}</p>
-                        <p><strong>Origine:</strong> ${item.origine || 'Sconosciuta'}</p>
+                        <p><strong>Famiglia:</strong> ${item.famiglia || 'Cactaceae'}</p>
+                        <p><strong>Origine:</strong> ${item.origine || 'Non specificata'}</p>
                     </div>
-
                     <p>${item.descrizione}</p>
-                    
-                    <div class="difficulty" style="margin-top:auto; padding-top:10px; border-top:1px solid #eee;">
+                    <div class="difficulty">
                         Impegno: <span class="stars">${generaStelle(item.difficolta)}</span>
                     </div>
                 </div>
             </article>
         `).join('');
 
-        // 4. Riattiva i click sulle immagini
         attachZoomEvents();
     }
 
@@ -81,11 +65,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Listener per i filtri
-    document.getElementById('sort-select').onchange = () => renderCards(allPlants);
-    document.getElementById('filter-type').onchange = () => renderCards(allPlants);
+    // Gestione Pulsante Torna Su
+    window.onscroll = function() {
+        if (backToTopBtn) {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        }
+    };
 
-    // Chiusura Modal
+    if (backToTopBtn) {
+        backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    // Chiusura Popup
     closeBtn.onclick = () => viewer.close();
     viewer.onclick = (e) => { if (e.target === viewer) viewer.close(); };
 
