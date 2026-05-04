@@ -15,13 +15,12 @@ body {
     padding: 20px;
 }
 
-/* --- HEADER DESKTOP --- */
 header {
     text-align: center;
     padding: 40px 0;
     border-bottom: 3px solid var(--desert-green);
     margin-bottom: 20px;
-    position: relative; /* Necessario per il logo in alto a destra */
+    position: relative; /* Importante per il logo desktop */
 }
 
 h1 {
@@ -30,52 +29,6 @@ h1 {
     margin: 0;
 }
 
-.github-profile {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    transition: transform 0.3s ease;
-}
-
-.github-profile img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 4px solid var(--desert-green);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.github-profile:hover {
-    transform: scale(1.1);
-}
-
-/* --- CONTROLLI E FILTRI --- */
-.controls {
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: white;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-}
-
-.filter-group label {
-    font-weight: bold;
-    margin-right: 10px;
-    color: var(--desert-green);
-}
-
-.filter-group select {
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid var(--sage);
-}
-
-/* --- GRIGLIA CARTE --- */
 #cactus-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -140,15 +93,6 @@ h3 {
     color: var(--terracotta);
 }
 
-.extra-info {
-    font-size: 0.85rem;
-    background: #f9f9f9;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 10px 0;
-    border-left: 4px solid var(--sage);
-}
-
 .difficulty {
     margin-top: auto;
     padding-top: 15px;
@@ -159,80 +103,231 @@ h3 {
 
 .stars {
     color: var(--gold);
+    margin-left: 5px;
 }
 
-/* --- MODALE E FOOTER --- */
+/* Stili del Popup (Modal) */
+.modal {
+    border: none;
+    padding: 0;
+    border-radius: 15px;
+    background: transparent;
+    max-width: 90vw;
+}
+
 .modal::backdrop {
     background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
 }
 
+.modal-content {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+    display: block;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2.5rem;
+    color: var(--terracotta);
+    cursor: pointer;
+    line-height: 1;
+}
+
+/* Sezione Download */
+.download-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--sage);
+    color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.btn-download {
+    background-color: var(--terracotta);
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.btn-download:hover { transform: scale(1.05); }
+
+/* Filtri / Controls */
+.controls {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.filter-group label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--desert-green);
+}
+
+.filter-group select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--sage);
+}
+
+/* Nuove Info Famiglia e Origine */
+.extra-info {
+    font-size: 0.85rem;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 4px solid var(--sage);
+}
+
+.extra-info p { margin: 3px 0; }
+
+/* Logo GitHub Desktop */
+.github-profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.github-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid var(--desert-green);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.github-profile:hover {
+    transform: scale(1.1);
+}
+
+/* Pulsante Torna in Cima */
 #backToTop {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: var(--terracotta);
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    background-color: var(--terracotta);
     color: white;
     border: none;
-    border-radius: 50%;
+    outline: none;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    font-size: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: opacity 0.3s, transform 0.3s;
 }
 
-/* --- RESPONSIVE MOBILE (Sotto 600px) --- */
+/* ============================================================
+   AGGIUNTE: BARRA DI RICERCA (PC & Mobile)
+   ============================================================ */
+.search-box {
+    flex: 1; 
+    min-width: 250px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid var(--sage);
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    border-color: var(--terracotta);
+}
+
+@media (min-width: 601px) {
+    .search-box {
+        flex: 0 1 300px; /* Lunghezza controllata su PC */
+        margin-right: auto; /* Allinea a sinistra spingendo i filtri a destra */
+    }
+}
+
+/* ============================================================
+   RESPONSIVE: MOBILE (Sotto 600px)
+   ============================================================ */
 @media (max-width: 600px) {
     body {
         padding: 10px;
     }
 
-    /* Crea la barra logo + titolo */
+    /* Barra Titolo + Logo Mobile */
     header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
         padding: 15px;
         background-color: white;
         border-radius: 12px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    /* Il logo va a destra nella barra */
+    /* Elemento invisibile per bilanciare il logo e centrare il titolo */
+    header::before {
+        content: "";
+        width: 50px;
+        order: 1;
+    }
+
+    h1 {
+        font-size: 1.3rem !important;
+        margin: 0;
+        text-align: center;
+        order: 2;
+        flex: 1;
+    }
+
     .github-profile {
         position: static !important;
         margin: 0;
-        order: 3; /* Sta a destra */
-        width: 50px; /* Larghezza fissa per il bilanciamento */
+        order: 3;
+        width: 50px;
         display: flex;
         justify-content: flex-end;
     }
 
     .github-profile img {
-        width: 40px !important;
-        height: 40px !important;
+        width: 50px !important;
+        height: 50px !important;
         border-width: 2px;
     }
 
-    /* Il titolo rimane a sinistra nella barra */
-    h1 {
-        font-size: 1.3rem !important;
-        margin: 0;
-        text-align: center;
-        order: 2; /* Sta al centro */
-        flex: 1;  /* Prende tutto lo spazio centrale */
-    }
-
-    /* Creiamo un elemento vuoto a sinistra per bilanciare il logo */
-    header::before {
-        content: "";
-        width: 50px; /* Stessa larghezza dell'immagine del logo */
-        order: 1;
-    }
-
-    /* Descrizione e contatore sempre sotto e centrati */
+    /* Descrizione e contatore sotto la barra */
     header p {
         width: 100%;
         font-size: 0.85rem;
@@ -241,9 +336,16 @@ h3 {
         order: 4;
     }
 
+    /* Controlli Filtri Mobile */
     .controls {
         flex-direction: column;
         align-items: stretch;
+        gap: 15px;
+    }
+
+    .search-box {
+        width: 100%;
+        order: -1; /* Ricerca sempre in alto nei filtri */
     }
 
     .filter-group {
@@ -251,8 +353,22 @@ h3 {
         justify-content: space-between;
         align-items: center;
     }
+    
+    .filter-group select {
+        width: 60%;
+    }
 
+    /* Ripristino Grid Card Mobile (come l'originale) */
     #cactus-container {
-        grid-template-columns: 1fr; /* Una card per riga su mobile */
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+    
+    .card-content h3 {
+        font-size: 1.2rem;
     }
 }

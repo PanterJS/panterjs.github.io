@@ -76,6 +76,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // barra di ricerca
+    const searchInput = document.getElementById('search-input');
+
+    searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.toLowerCase();
+    
+    const filteredPlants = allPlants.filter(plant => 
+        plant.nome.toLowerCase().includes(term) || 
+        plant.soprannome.toLowerCase().includes(term) ||
+        plant.descrizione.toLowerCase().includes(term)
+    );
+    
+    renderCards(filteredPlants);
+    
+    // Aggiorna il contatore con il numero di risultati trovati
+    if (speciesCount) speciesCount.innerText = filteredPlants.length;
+});
+
     if (backToTopBtn) {
         backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
     }
