@@ -255,3 +255,51 @@ h3 {
 header {
     position: relative;
 }
+
+/* Regolazioni per schermi piccoli (Smartphone) */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Riduciamo lo spazio ai bordi */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Titolo più piccolo */
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .controls {
+        flex-direction: column; /* Mette i filtri uno sopra l'altro */
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .filter-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .filter-group select {
+        width: 60%; /* Diamo più spazio al menu a tendina */
+    }
+}
+
+@media (max-width: 600px) {
+    #cactus-container {
+        grid-template-columns: 1fr; /* Una sola colonna su mobile */
+        gap: 15px;
+    }
+
+    .card img {
+        height: 200px; /* Riduciamo leggermente l'altezza dell'immagine */
+    }
+    
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+}
