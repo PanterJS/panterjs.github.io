@@ -148,7 +148,7 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus globoso con coste pronunciate e robuste spine gialle.",
-      "immagine": "imgs/ferocactus_histrix.jpeg"
+      "immagine": "imgs/Ferocactus_histrix.jpeg"
     },
     {
       "nome": "Graptopetalum paraguayense",
@@ -368,7 +368,7 @@
       "origine": "Messico/USA (Arizona)",
       "difficolta": 2,
       "descrizione": "Maestoso cactus a canne d'organo tipico del deserto di Sonora.",
-      "immagine": "imgs/stenocereus_thurberi.jpeg"
+      "immagine": "imgs/Stenocereus_thurberi.jpeg"
     },
     {
       "nome": "Opuntia dillenii",
@@ -448,7 +448,7 @@
     "tipo": "cactus",
     "difficolta": 2,
     "descrizione": "Imponente cactus colonnare che ramifica a candelabro. È noto per le sue areole giganti che continuano a crescere nel tempo.",
-    "immagine": "imgs/Neoraimondia_herzogiana_.jpeg"
+    "immagine": "imgs/Neoraimondia_herzogiana.jpeg"
   },
   {
   "id": 47,
