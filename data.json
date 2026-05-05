@@ -171,7 +171,7 @@
       "immagine": "imgs/kalanchoe-daigremontiana.jpg"
     },
     {
-      "nome": "Kroenleinia grusonii",
+      "nome": "Echinocactus grusonii",
       "soprannome": "Cuscino della Suocera",
       "tipo": "Cactus",
       "famiglia": "Cactaceae",
@@ -439,6 +439,26 @@
       "difficolta": 2,
       "descrizione": "Cactus solitario e schiacciato, noto per la sua resistenza e i fiori bianchi con gola rossa.",
       "immagine": "imgs/gymnocalycium-quehlianum.jpg"
-    }
+    },
+    {
+    "nome": "Neoraimondia herzogiana",
+    "soprannome": "Carapari",
+    "famiglia": "Cactaceae",
+    "origine": "Bolivia",
+    "tipo": "cactus",
+    "difficolta": 2,
+    "descrizione": "Imponente cactus colonnare che ramifica a candelabro. È noto per le sue areole giganti che continuano a crescere nel tempo.",
+    "immagine": "imgs/Neoraimondia_herzogiana_.jpeg"
+  },
+  {
+    "nome": "Ferocactus histrix",
+    "soprannome": "Barile di Elettro",
+    "famiglia": "Cactaceae",
+    "origine": "Messico",
+    "tipo": "cactus",
+    "difficolta": 1,
+    "descrizione": "Cactus globoso con costolature ben marcate e spine gialle robuste. Produce caratteristici frutti carnosi e commestibili.",
+    "immagine": "imgs/Ferocactus_histrix.jpeg"
+  }
   ]
 }
