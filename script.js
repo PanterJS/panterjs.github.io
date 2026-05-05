@@ -1,11 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('cactus-container');
-    const speciesCount = document.getElementById('species-count'); // Ripristinato
+    const speciesCount = document.getElementById('species-count');
     const viewer = document.getElementById('image-viewer');
     const fullImg = document.getElementById('full-image');
     const caption = document.getElementById('modal-caption');
     const closeBtn = document.querySelector('.close-modal');
-    const backToTopBtn = document.getElementById("backToTop"); // Spostato qui dentro
+    const backToTopBtn = document.getElementById("backToTop");
+
+    // Elementi di controllo
+    const searchInput = document.getElementById('search-input');
+    const sortSelect = document.getElementById('sort-select');
+    const filterType = document.getElementById('filter-type');
 
     let allPlants = [];
 
@@ -21,15 +26,49 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             
             allPlants = data.piante;
-            if (speciesCount) speciesCount.innerText = allPlants.length; // Aggiorna contatore
+            if (speciesCount) speciesCount.innerText = allPlants.length;
             
-            renderCards(allPlants);
+            applyFilters(); // Esegue il primo rendering con i filtri attivi
         } catch (error) {
             container.innerHTML = `<p style="text-align:center;">🌵 Errore: ${error.message}</p>`;
         }
     }
 
+    // Funzione unificata per filtrare e ordinare
+    function applyFilters() {
+        const term = searchInput.value.toLowerCase();
+        const type = filterType.value;
+        const sort = sortSelect.value;
+
+        // 1. Filtra per ricerca E per tipo
+        let filtered = allPlants.filter(plant => {
+            const matchesSearch = 
+                plant.nome.toLowerCase().includes(term) || 
+                plant.soprannome.toLowerCase().includes(term) ||
+                plant.descrizione.toLowerCase().includes(term);
+            
+            const matchesType = (type === 'all') || (plant.tipo === type);
+
+            return matchesSearch && matchesType;
+        });
+
+        // 2. Applica l'ordinamento
+        if (sort === 'nome') {
+            filtered.sort((a, b) => a.nome.localeCompare(b.nome));
+        } else if (sort === 'difficolta') {
+            filtered.sort((a, b) => a.difficolta - b.difficolta);
+        }
+
+        renderCards(filtered);
+        if (speciesCount) speciesCount.innerText = filtered.length;
+    }
+
     function renderCards(plants) {
+        if (plants.length === 0) {
+            container.innerHTML = `<p style="text-align:center; grid-column: 1/-1;">Nessuna pianta trovata 🌵</p>`;
+            return;
+        }
+
         container.innerHTML = plants.map(item => `
             <article class="card">
                 <img src="${item.immagine}" class="zoomable" alt="${item.nome}" 
@@ -65,7 +104,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Gestione Pulsante Torna Su
+    // Event Listeners per i controlli
+    searchInput.addEventListener('input', applyFilters);
+    sortSelect.addEventListener('change', applyFilters);
+    filterType.addEventListener('change', applyFilters);
+
+    // Scroll e pulsante Top
     window.onscroll = function() {
         if (backToTopBtn) {
             if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
@@ -75,24 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     };
-
-    // barra di ricerca
-    const searchInput = document.getElementById('search-input');
-
-    searchInput.addEventListener('input', (e) => {
-    const term = e.target.value.toLowerCase();
-    
-    const filteredPlants = allPlants.filter(plant => 
-        plant.nome.toLowerCase().includes(term) || 
-        plant.soprannome.toLowerCase().includes(term) ||
-        plant.descrizione.toLowerCase().includes(term)
-    );
-    
-    renderCards(filteredPlants);
-    
-    // Aggiorna il contatore con il numero di risultati trovati
-    if (speciesCount) speciesCount.innerText = filteredPlants.length;
-});
 
     if (backToTopBtn) {
         backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
