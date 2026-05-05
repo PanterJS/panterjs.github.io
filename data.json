@@ -148,7 +148,7 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus globoso con coste pronunciate e robuste spine gialle.",
-      "immagine": "imgs/ferocactus-histrix.jpg"
+      "immagine": "imgs/ferocactus_histrix.jpeg"
     },
     {
       "nome": "Graptopetalum paraguayense",
@@ -362,13 +362,13 @@
     },
     {
       "nome": "Stenocereus thurberi",
-      "soprannome": "Organ Pipe",
+      "soprannome": "Canne d'Organo",
       "tipo": "Cactus",
       "famiglia": "Cactaceae",
       "origine": "Messico/USA (Arizona)",
       "difficolta": 2,
       "descrizione": "Maestoso cactus a canne d'organo tipico del deserto di Sonora.",
-      "immagine": "imgs/stenocereus.jpg"
+      "immagine": "imgs/stenocereus_thurberi.jpeg"
     },
     {
       "nome": "Opuntia dillenii",
@@ -451,14 +451,15 @@
     "immagine": "imgs/Neoraimondia_herzogiana_.jpeg"
   },
   {
-    "nome": "Ferocactus histrix",
-    "soprannome": "Barile di Elettro",
-    "famiglia": "Cactaceae",
-    "origine": "Messico",
-    "tipo": "cactus",
-    "difficolta": 1,
-    "descrizione": "Cactus globoso con costolature ben marcate e spine gialle robuste. Produce caratteristici frutti carnosi e commestibili.",
-    "immagine": "imgs/Ferocactus_histrix.jpeg"
+  "id": 47,
+  "nome": "Crassula marneriana",
+  "soprannome": "Collana di Giada",
+  "famiglia": "Crassulaceae",
+  "origine": "Sud Africa",
+  "tipo": "succulenta",
+  "difficolta": 1,
+  "descrizione": "Splendida succulenta con foglie carnose e impilate che ricordano una collana di perline. Tende ad assumere sfumature rosate se esposta al sole.",
+  "immagine": "imgs/Crassula_marneriana.jpeg"
   }
   ]
 }
