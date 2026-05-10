@@ -191,14 +191,14 @@
       "immagine": "imgs/peyote.jpg"
     },
     {
-      "nome": "Mammillaria backebergiana",
+      "nome": "Mammillaria ernestii",
       "soprannome": "Mammillaria",
       "tipo": "Cactus",
       "famiglia": "Cactaceae",
       "origine": "Messico",
       "difficolta": 2,
-      "descrizione": "Fusto cilindrico che produce una 'corona' di piccoli fiori rosa sulla cima.",
-      "immagine": "imgs/mammillaria-backebergiana.jpg"
+      "descrizione": "Fusto cilindrico che produce una 'corona' di piccoli fiori rosa/viola sulla cima.",
+      "immagine": "imgs/Mammillaria_ernestii.jpeg"
     },
     {
       "nome": "Mammillaria elongata",
@@ -208,7 +208,7 @@
       "origine": "Messico (Hidalgo)",
       "difficolta": 1,
       "descrizione": "Cactus colonnare sottile che forma densi cuscini, con spine gialle disposte a stella.",
-      "immagine": "imgs/mammillaria-elongata.jpg"
+      "immagine": "imgs/Mammillaria_elongata.jpeg"
     },
     {
       "nome": "Mammillaria longimamma",
@@ -378,17 +378,17 @@
       "origine": "Caraibi/USA Sud-orientale",
       "difficolta": 2,
       "descrizione": "Pale verdi con lunghe spine gialle, produce fiori gialli e frutti violacei.",
-      "immagine": "imgs/opuntia-dillenii.jpg"
+      "immagine": "imgs/opuntia_dillenii.jpeg"
     },
     {
-      "nome": "Stenocactus multicostatus zacatecasensis",
+      "nome": "Echinofossulocactus multicostatus",
       "soprannome": "Cactus Cervello",
       "tipo": "Cactus",
       "famiglia": "Cactaceae",
       "origine": "Messico (Zacatecas)",
       "difficolta": 3,
       "descrizione": "Caratterizzato da moltissime coste sottili e ondulate che ricordano un cervello.",
-      "immagine": "imgs/stenocactus-zacatecasensis.jpg"
+      "immagine": "imgs/Echinofossulocactus_multicostatus.jpeg"
     },
     {
       "nome": "Rebutia muscula",
