@@ -61,14 +61,14 @@
       "immagine": "imgs/cereus-jamacaru-mostruosus.jpg"
     },
     {
-      "nome": "Chamaecereus silvestrii",
+      "nome": "Echinopsis chamaecereus",
       "soprannome": "Cactus Arachide",
       "tipo": "Cactus",
       "famiglia": "Cactaceae",
       "origine": "Argentina",
       "difficolta": 2,
       "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio.",
-      "immagine": "imgs/chamaecereus-silvestrii.jpg"
+      "immagine": "imgs/Echinopsis_chamaecereus.jpeg"
     },
     {
       "nome": "Crassula tetragona",
@@ -108,7 +108,7 @@
       "origine": "Brasile/Argentina",
       "difficolta": 1,
       "descrizione": "Famoso per i suoi fiori bianchi notturni enormi e profumatissimi.",
-      "immagine": "imgs/echinopsis-eyriesii.jpg"
+      "immagine": "imgs/Echinopsis_eyriesii.jpeg"
     },
     {
       "nome": "Echinopsis multiplex",
@@ -460,6 +460,36 @@
   "difficolta": 1,
   "descrizione": "Splendida succulenta con foglie carnose e impilate che ricordano una collana di perline. Tende ad assumere sfumature rosate se esposta al sole.",
   "immagine": "imgs/Crassula_marneriana.jpeg"
-  }
+  },
+  {
+      "nome": "Mammillaria karwinskiana",
+      "soprannome": "Cactus Civetta",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Messico",
+      "difficolta": 1,
+      "descrizione": "Cactus globoso che tende a dividersi dicotomicamente formando splendide teste bicefale. Presenta una linfa lattiginosa e fiori color crema con venature purpuree.",
+      "immagine": "Mammillaria_karwinskiana_subsp_karwinskiana.jpeg"
+    },
+    {
+      "nome": "Rebutia pygmaea",
+      "soprannome": "Rebutia Pigmea",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Argentina e Bolivia",
+      "difficolta": 2,
+      "descrizione": "Cactus nano di forma cilindrica che cresce in piccoli agglomerati densi. È molto apprezzato per le sue fioriture precoci e abbondanti di colore rosso-arancio.",
+      "immagine": "Rebutia_pygmaea.jpeg"
+    },
+    {
+      "nome": "Sulcorebutia sunrise",
+      "soprannome": "Sulcorebutia dell'Alba",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Bolivia",
+      "difficolta": 2,
+      "descrizione": "Splendida variante di Sulcorebutia caratterizzata da una fioritura spettacolare con petali sfumati che vanno dal giallo brillante all'arancione, ricordando i colori dell'alba.",
+      "immagine": "Sulcorebutia_alba.jpeg"
+    }
   ]
 }
