@@ -451,7 +451,6 @@
     "immagine": "imgs/Neoraimondia_herzogiana.jpeg"
   },
   {
-  "id": 47,
   "nome": "Crassula marneriana",
   "soprannome": "Collana di Giada",
   "famiglia": "Crassulaceae",
@@ -469,7 +468,7 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Cactus globoso che tende a dividersi dicotomicamente formando splendide teste bicefale. Presenta una linfa lattiginosa e fiori color crema con venature purpuree.",
-      "immagine": "Mammillaria_karwinskiana_subsp_karwinskiana.jpeg"
+      "immagine": "imgs/Mammillaria_karwinskiana_subsp_karwinskiana.jpeg"
     },
     {
       "nome": "Rebutia pygmaea",
@@ -479,7 +478,7 @@
       "origine": "Argentina e Bolivia",
       "difficolta": 2,
       "descrizione": "Cactus nano di forma cilindrica che cresce in piccoli agglomerati densi. È molto apprezzato per le sue fioriture precoci e abbondanti di colore rosso-arancio.",
-      "immagine": "Rebutia_pygmaea.jpeg"
+      "immagine": "imgs/Rebutia_pygmaea.jpeg"
     },
     {
       "nome": "Sulcorebutia sunrise",
@@ -489,7 +488,7 @@
       "origine": "Bolivia",
       "difficolta": 2,
       "descrizione": "Splendida variante di Sulcorebutia caratterizzata da una fioritura spettacolare con petali sfumati che vanno dal giallo brillante all'arancione, ricordando i colori dell'alba.",
-      "immagine": "Sulcorebutia_alba.jpeg"
+      "immagine": "imgs/Sulcorebutia_alba.jpeg"
     }
   ]
 }
