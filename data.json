@@ -441,26 +441,26 @@
       "immagine": "imgs/gymnocalycium-quehlianum.jpg"
     },
     {
-    "nome": "Neoraimondia herzogiana",
-    "soprannome": "Carapari",
-    "famiglia": "Cactaceae",
-    "origine": "Bolivia",
-    "tipo": "cactus",
-    "difficolta": 2,
-    "descrizione": "Imponente cactus colonnare che ramifica a candelabro. È noto per le sue areole giganti che continuano a crescere nel tempo.",
-    "immagine": "imgs/Neoraimondia_herzogiana.jpeg"
-  },
-  {
-  "nome": "Crassula marneriana",
-  "soprannome": "Collana di Giada",
-  "famiglia": "Crassulaceae",
-  "origine": "Sud Africa",
-  "tipo": "succulenta",
-  "difficolta": 1,
-  "descrizione": "Splendida succulenta con foglie carnose e impilate che ricordano una collana di perline. Tende ad assumere sfumature rosate se esposta al sole.",
-  "immagine": "imgs/Crassula_marneriana.jpeg"
-  },
-  {
+      "nome": "Neoraimondia herzogiana",
+      "soprannome": "Carapari",
+      "famiglia": "Cactaceae",
+      "origine": "Bolivia",
+      "tipo": "cactus",
+      "difficolta": 2,
+      "descrizione": "Imponente cactus colonnare che ramifica a candelabro. È noto per le sue areole giganti che continuano a crescere nel tempo.",
+      "immagine": "imgs/Neoraimondia_herzogiana.jpeg"
+    },
+    {
+      "nome": "Crassula marneriana",
+      "soprannome": "Collana di Giada",
+      "famiglia": "Crassulaceae",
+      "origine": "Sud Africa",
+      "tipo": "succulenta",
+      "difficolta": 1,
+      "descrizione": "Splendida succulenta con foglie carnose e impilate che ricordano una collana di perline. Tende ad assumere sfumature rosate se esposta al sole.",
+      "immagine": "imgs/Crassula_marneriana.jpeg"
+    },
+    {
       "nome": "Mammillaria karwinskiana",
       "soprannome": "Cactus Civetta",
       "tipo": "Cactus",
