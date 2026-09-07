@@ -489,6 +489,36 @@
       "difficolta": 2,
       "descrizione": "Splendida variante di Sulcorebutia caratterizzata da una fioritura spettacolare con petali sfumati che vanno dal giallo brillante all'arancione, ricordando i colori dell'alba.",
       "immagine": "imgs/Sulcorebutia_alba.jpeg"
+    },
+    {
+      "nome": "Kalanchoe blossfeldiana",
+      "soprannome": "Calandiva",
+      "tipo": "Succulenta",
+      "famiglia": "Crassulaceae",
+      "origine": "Madagascar",
+      "difficolta": 1,
+      "descrizione": "Popolare succulenta apprezzata per la prolungata e vivace fioritura in molteplici colori e per le foglie lucide e carnose.",
+      "immagine": "imgs/Kalanchoe_Blossfeldiana.jpeg"
+    },
+    {
+      "nome": "Coryphantha sulcata",
+      "soprannome": "Coryphantha",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "USA (Texas) e Messico",
+      "difficolta": 2,
+      "descrizione": "Cactus cespitoso con spessi tubercoli solcati, abbondante lanosità apicale e spettacolari fiori gialli dal centro dorato.",
+      "immagine": "imgs/Coryphantha_Sulcata.jpeg"
+    },
+    {
+      "nome": "Gymnocalycium anisitsii",
+      "soprannome": "Gimnocalycium Rosa",
+      "tipo": "Cactus",
+      "famiglia": "Cactaceae",
+      "origine": "Paraguay e Bolivia",
+      "difficolta": 2,
+      "descrizione": "Cactus globoso caratterizzato da grandi fiori imbutiformi con sfumature delicate dal bianco al rosa carne e fusto con coste marcate.",
+      "immagine": "imgs/Gymnocalycium_Anisitsii.jpeg"
     }
   ]
 }
