@@ -416,7 +416,7 @@
       "difficolta": 2,
       "descrizione": "Pale verdi con lunghe spine gialle, produce fiori gialli e frutti violacei.",
       "immagine": "imgs/opuntia_dillenii.jpeg",
-      "enable": true
+      "enable": false
     },
     {
       "nome": "Echinofossulocactus multicostatus",
@@ -570,6 +570,17 @@
       "difficolta": 2,
       "descrizione": "Cactus globoso caratterizzato da grandi fiori imbutiformi con sfumature delicate dal bianco al rosa carne e fusto con coste marcate.",
       "immagine": "imgs/Gymnocalycium_Anisitsii.jpeg",
+      "enable": true
+    },
+    {
+      "nome": "Lithops",
+      "soprannome": "Pietre Vive",
+      "tipo": "Succulenta",
+      "famiglia": "Aizoaceae",
+      "origine": "Sudafrica e Namibia",
+      "difficolta": 3,
+      "descrizione": "Piccole succulente che mimano l'aspetto di ciottoli e pietre per sfuggire agli erbivori. Producono delicati fiori simili a margherite durante l'autunno.",
+      "immagine": "imgs/lithops.jpeg",
       "enable": true
     }
   ]
