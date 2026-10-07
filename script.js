@@ -20,19 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadCactus() {
-        try {
-            const response = await fetch('data.json?v=' + Date.now());
-            if (!response.ok) throw new Error('Errore caricamento database');
-            const data = await response.json();
-            
-            allPlants = data.piante;
-            if (speciesCount) speciesCount.innerText = allPlants.length;
-            
-            applyFilters(); // Esegue il primo rendering con i filtri attivi
-        } catch (error) {
-            container.innerHTML = `<p style="text-align:center;">🌵 Errore: ${error.message}</p>`;
-        }
+    try {
+        const response = await fetch('data.json?v=' + Date.now());
+        if (!response.ok) throw new Error('Errore caricamento database');
+        const data = await response.json();
+        
+        // Filtra tenendo solo le piante abilitate (enable !== false)
+        allPlants = data.piante.filter(plant => plant.enable !== false);
+        
+        if (speciesCount) speciesCount.innerText = allPlants.length;
+        
+        applyFilters(); // Esegue il primo rendering con i filtri attivi
+    } catch (error) {
+        container.innerHTML = `<p style="text-align:center;">🌵 Errore: ${error.message}</p>`;
     }
+}
 
     // Funzione unificata per filtrare e ordinare
     function applyFilters() {

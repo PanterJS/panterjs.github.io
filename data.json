@@ -8,7 +8,8 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Maestosa e resistente, con foglie grigio-verdi che terminano con una spina acuta.",
-      "immagine": "imgs/agave-americana.jpg"
+      "immagine": "imgs/agave-americana.jpg",
+      "enable": false
     },
     {
       "nome": "Agave americana variegata",
@@ -18,7 +19,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Bellissima varietà ornamentale caratterizzata da foglie verdi con vistosi margini giallo crema.",
-      "immagine": "imgs/agave-variegata.jpg"
+      "immagine": "imgs/agave-variegata.jpg",
+      "enable": false
     },
     {
       "nome": "Aloe vera",
@@ -28,7 +30,8 @@
       "origine": "Penisola Arabica",
       "difficolta": 1,
       "descrizione": "Pianta officinale celebre per il gel lenitivo contenuto nelle sue foglie carnose.",
-      "immagine": "imgs/aloe-vera.jpg"
+      "immagine": "imgs/aloe-vera.jpg",
+      "enable": false
     },
     {
       "nome": "Anacampseros rufescens f. variegata",
@@ -38,7 +41,8 @@
       "origine": "Sudafrica",
       "difficolta": 3,
       "descrizione": "Piccola rosetta dai colori cangianti tra il verde, il rosa e il viola.",
-      "immagine": "imgs/anacampseros.jpg"
+      "immagine": "imgs/anacampseros.jpg",
+      "enable": false
     },
     {
       "nome": "Aeonium haworthii",
@@ -48,7 +52,8 @@
       "origine": "Isole Canarie",
       "difficolta": 2,
       "descrizione": "Cresce come un piccolo arbusto con rosette verde-azzurro bordate di rosso.",
-      "immagine": "imgs/aeonium-haworthii.jpg"
+      "immagine": "imgs/aeonium-haworthii.jpg",
+      "enable": false
     },
     {
       "nome": "Cereus jamacaru f. mostruosus",
@@ -58,7 +63,8 @@
       "origine": "Brasile",
       "difficolta": 2,
       "descrizione": "Forma mutata che cresce in modo irregolare creando sculture colonnari uniche.",
-      "immagine": "imgs/cereus-jamacaru-mostruosus.jpg"
+      "immagine": "imgs/cereus-jamacaru-mostruosus.jpg",
+      "enable": false
     },
     {
       "nome": "Echinopsis chamaecereus",
@@ -68,7 +74,8 @@
       "origine": "Argentina",
       "difficolta": 2,
       "descrizione": "Cactus strisciante che produce spettacolari fiori rosso-arancio.",
-      "immagine": "imgs/Echinopsis_chamaecereus.jpeg"
+      "immagine": "imgs/Echinopsis_chamaecereus.jpeg",
+      "enable": true
     },
     {
       "nome": "Crassula tetragona",
@@ -78,7 +85,8 @@
       "origine": "Sudafrica",
       "difficolta": 2,
       "descrizione": "Succulenta eretta con foglie appuntite che ricordano un piccolo pino.",
-      "immagine": "imgs/crassula-tetragona.jpg"
+      "immagine": "imgs/crassula-tetragona.jpg",
+      "enable": false
     },
     {
       "nome": "Echinocereus delaetii",
@@ -88,7 +96,8 @@
       "origine": "Messico",
       "difficolta": 3,
       "descrizione": "Ricoperto da lunghi peli bianchi che nascondono le spine, simile al Cephalocereus.",
-      "immagine": "imgs/echinocereus-delaetii.jpg"
+      "immagine": "imgs/echinocereus-delaetii.jpg",
+      "enable": false
     },
     {
       "nome": "Echinocereus viereckii subs. morricalii",
@@ -98,7 +107,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus quasi privo di spine con fusti verde brillante e grandi fiori viola.",
-      "immagine": "imgs/echinocereus-morricalii.jpg"
+      "immagine": "imgs/echinocereus-morricalii.jpg",
+      "enable": false
     },
     {
       "nome": "Echinopsis eyriesii",
@@ -108,7 +118,8 @@
       "origine": "Brasile/Argentina",
       "difficolta": 1,
       "descrizione": "Famoso per i suoi fiori bianchi notturni enormi e profumatissimi.",
-      "immagine": "imgs/Echinopsis_eyriesii.jpeg"
+      "immagine": "imgs/Echinopsis_eyriesii.jpeg",
+      "enable": true
     },
     {
       "nome": "Echinopsis multiplex",
@@ -118,7 +129,8 @@
       "origine": "Brasile/Argentina",
       "difficolta": 1,
       "descrizione": "Molto prolifico, crea gruppi di sfere spinose e spettacolari fiori rosa.",
-      "immagine": "imgs/echinopsis-multiplex.jpg"
+      "immagine": "imgs/echinopsis-multiplex.jpg",
+      "enable": false
     },
     {
       "nome": "Euphorbia horrida",
@@ -128,7 +140,8 @@
       "origine": "Sudafrica",
       "difficolta": 3,
       "descrizione": "Somiglia a un cactus ma è una Euforbia con creste irregolari e spinose.",
-      "immagine": "imgs/Euphorbia_Horrida.jpeg"
+      "immagine": "imgs/Euphorbia_Horrida.jpeg",
+      "enable": true
     },
     {
       "nome": "Euphorbia horrida crestata",
@@ -138,7 +151,8 @@
       "origine": "Sudafrica",
       "difficolta": 4,
       "descrizione": "Forma crestata molto ricercata, cresce a ventaglio creando sculture naturali.",
-      "immagine": "imgs/euphorbia-crestata.jpg"
+      "immagine": "imgs/euphorbia-crestata.jpg",
+      "enable": false
     },
     {
       "nome": "Ferocactus histrix",
@@ -148,7 +162,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Cactus globoso con coste pronunciate e robuste spine gialle.",
-      "immagine": "imgs/Ferocactus_histrix.jpeg"
+      "immagine": "imgs/Ferocactus_histrix.jpeg",
+      "enable": true
     },
     {
       "nome": "Graptopetalum paraguayense",
@@ -158,7 +173,8 @@
       "origine": "Messico (Tamaulipas)",
       "difficolta": 1,
       "descrizione": "Rosette grigio-lavanda molto resistenti, si propaga facilmente da foglia.",
-      "immagine": "imgs/graptopetalum-paraguayense.jpg"
+      "immagine": "imgs/graptopetalum-paraguayense.jpg",
+      "enable": false
     },
     {
       "nome": "Kalanchoe daigremontiana",
@@ -168,7 +184,8 @@
       "origine": "Madagascar",
       "difficolta": 1,
       "descrizione": "Produce centinaia di nuove piantine lungo i bordi delle foglie.",
-      "immagine": "imgs/kalanchoe-daigremontiana.jpg"
+      "immagine": "imgs/kalanchoe-daigremontiana.jpg",
+      "enable": false
     },
     {
       "nome": "Echinocactus grusonii",
@@ -178,7 +195,8 @@
       "origine": "Messico (Hidalgo)",
       "difficolta": 2,
       "descrizione": "Classico cactus sferico con spine dorate; diventa imponente con gli anni.",
-      "immagine": "imgs/grusonii.jpg"
+      "immagine": "imgs/grusonii.jpg",
+      "enable": false
     },
     {
       "nome": "Lophophora williamsii",
@@ -188,7 +206,8 @@
       "origine": "Messico/USA (Texas)",
       "difficolta": 4,
       "descrizione": "Piccolo cactus globoso senza spine, dalla crescita estremamente lenta.",
-      "immagine": "imgs/peyote.jpg"
+      "immagine": "imgs/peyote.jpg",
+      "enable": false
     },
     {
       "nome": "Mammillaria ernestii",
@@ -198,7 +217,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Fusto cilindrico che produce una 'corona' di piccoli fiori rosa/viola sulla cima.",
-      "immagine": "imgs/Mammillaria_ernestii.jpeg"
+      "immagine": "imgs/Mammillaria_ernestii.jpeg",
+      "enable": true
     },
     {
       "nome": "Mammillaria elongata",
@@ -208,7 +228,8 @@
       "origine": "Messico (Hidalgo)",
       "difficolta": 1,
       "descrizione": "Cactus colonnare sottile che forma densi cuscini, con spine gialle disposte a stella.",
-      "immagine": "imgs/Mammillaria_elongata.jpeg"
+      "immagine": "imgs/Mammillaria_elongata.jpeg",
+      "enable": true
     },
     {
       "nome": "Mammillaria longimamma",
@@ -218,7 +239,8 @@
       "origine": "Messico",
       "difficolta": 3,
       "descrizione": "Caratterizzata da tubercoli (capezzoli) insolitamente lunghi e grandi fiori gialli.",
-      "immagine": "imgs/mammillaria-longimamma.jpg"
+      "immagine": "imgs/mammillaria-longimamma.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia ficus-indica",
@@ -228,7 +250,8 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Iconico cactus a pale che produce i celebri frutti commestibili.",
-      "immagine": "imgs/opuntia.jpg"
+      "immagine": "imgs/opuntia.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia microdasys albina",
@@ -238,7 +261,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Varietà con piccoli ciuffi di spine (glochidi) di colore bianco candido.",
-      "immagine": "imgs/opuntia-albina.jpg"
+      "immagine": "imgs/opuntia-albina.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia microdasys arancio",
@@ -248,7 +272,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "Caratterizzata da glochidi color ruggine o arancione intenso.",
-      "immagine": "imgs/opuntia-arancio.jpg"
+      "immagine": "imgs/opuntia-arancio.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia microdasys gialla",
@@ -258,7 +283,8 @@
       "origine": "Messico",
       "difficolta": 2,
       "descrizione": "La classica varietà con glochidi giallo oro disposti regolarmente sulle pale.",
-      "immagine": "imgs/opuntia-gialla.jpg"
+      "immagine": "imgs/opuntia-gialla.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia microdasys subs. rufida Indigo",
@@ -268,7 +294,8 @@
       "origine": "Messico (Chihuahua)",
       "difficolta": 3,
       "descrizione": "Varietà rara con pale tendenti al bluastro e glochidi rossicci.",
-      "immagine": "imgs/opuntia-indigo.jpg"
+      "immagine": "imgs/opuntia-indigo.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia monacantha",
@@ -278,7 +305,8 @@
       "origine": "America del Sud",
       "difficolta": 1,
       "descrizione": "Cactus a pale verde brillante con lunghe spine singole.",
-      "immagine": "imgs/opuntia-monacantha.jpg"
+      "immagine": "imgs/opuntia-monacantha.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia monacantha f. mostruosa variegata",
@@ -288,7 +316,8 @@
       "origine": "America del Sud",
       "difficolta": 2,
       "descrizione": "Forma nana e mostruosa con macchie bianche o crema sulle pale.",
-      "immagine": "imgs/opuntia-monacantha-variegata.jpg"
+      "immagine": "imgs/opuntia-monacantha-variegata.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia subulata",
@@ -298,7 +327,8 @@
       "origine": "Perù/Argentina",
       "difficolta": 1,
       "descrizione": "Cactus colonnare con lunghe spine e piccole foglie rudimentali che sembrano aghi.",
-      "immagine": "imgs/opuntia-subulata.jpg"
+      "immagine": "imgs/opuntia-subulata.jpg",
+      "enable": false
     },
     {
       "nome": "Opuntia tuna f. crestata",
@@ -308,7 +338,8 @@
       "origine": "America Centrale/Caraibi",
       "difficolta": 3,
       "descrizione": "Varietà che cresce formando onde e creste simili a un corallo.",
-      "immagine": "imgs/opuntia-tuna-crestata.jpg"
+      "immagine": "imgs/opuntia-tuna-crestata.jpg",
+      "enable": false
     },
     {
       "nome": "Parodia magnifica",
@@ -318,7 +349,8 @@
       "origine": "Brasile (Rio Grande do Sul)",
       "difficolta": 2,
       "descrizione": "Sfera azzurrognola con coste parallele e spine dorate sottili.",
-      "immagine": "imgs/Parodia_Magnifica.jpeg"
+      "immagine": "imgs/Parodia_Magnifica.jpeg",
+      "enable": true
     },
     {
       "nome": "Pleiospilos nelii",
@@ -328,7 +360,8 @@
       "origine": "Sudafrica (Karoo)",
       "difficolta": 3,
       "descrizione": "Sembra una pietra spaccata; richiede pochissima acqua.",
-      "immagine": "imgs/pleiospilos.jpg"
+      "immagine": "imgs/pleiospilos.jpg",
+      "enable": false
     },
     {
       "nome": "Sedum cauticola 'Lidakense'",
@@ -338,7 +371,8 @@
       "origine": "Giappone",
       "difficolta": 2,
       "descrizione": "Tappezzante con foglie grigio-blu e fiori rosa autunnali.",
-      "immagine": "imgs/sedum-lidakense.jpg"
+      "immagine": "imgs/sedum-lidakense.jpg",
+      "enable": false
     },
     {
       "nome": "Sedum palmeri",
@@ -348,7 +382,8 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Resistentissima al gelo, fiorisce in giallo intenso a fine inverno.",
-      "immagine": "imgs/sedum-palmeri.jpg"
+      "immagine": "imgs/sedum-palmeri.jpg",
+      "enable": false
     },
     {
       "nome": "Sedum rubrotinctum",
@@ -358,7 +393,8 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Foglie simili a chicchi di riso che diventano rosso fuoco al sole.",
-      "immagine": "imgs/sedum-rubrotinctum.jpg"
+      "immagine": "imgs/sedum-rubrotinctum.jpg",
+      "enable": false
     },
     {
       "nome": "Stenocereus thurberi",
@@ -368,7 +404,8 @@
       "origine": "Messico/USA (Arizona)",
       "difficolta": 2,
       "descrizione": "Maestoso cactus a canne d'organo tipico del deserto di Sonora.",
-      "immagine": "imgs/Stenocereus_thurberi.jpeg"
+      "immagine": "imgs/Stenocereus_thurberi.jpeg",
+      "enable": true
     },
     {
       "nome": "Opuntia dillenii",
@@ -378,7 +415,8 @@
       "origine": "Caraibi/USA Sud-orientale",
       "difficolta": 2,
       "descrizione": "Pale verdi con lunghe spine gialle, produce fiori gialli e frutti violacei.",
-      "immagine": "imgs/opuntia_dillenii.jpeg"
+      "immagine": "imgs/opuntia_dillenii.jpeg",
+      "enable": true
     },
     {
       "nome": "Echinofossulocactus multicostatus",
@@ -388,7 +426,8 @@
       "origine": "Messico (Zacatecas)",
       "difficolta": 3,
       "descrizione": "Caratterizzato da moltissime coste sottili e ondulate che ricordano un cervello.",
-      "immagine": "imgs/Echinofossulocactus_multicostatus.jpeg"
+      "immagine": "imgs/Echinofossulocactus_multicostatus.jpeg",
+      "enable": true
     },
     {
       "nome": "Rebutia muscula",
@@ -398,7 +437,8 @@
       "origine": "Bolivia",
       "difficolta": 2,
       "descrizione": "Piccolo cactus globoso interamente ricoperto da soffici spine bianche; fiorisce in arancione vivace.",
-      "immagine": "imgs/rebutia-muscula.jpg"
+      "immagine": "imgs/rebutia-muscula.jpg",
+      "enable": false
     },
     {
       "nome": "Gymnocalycium ferrarii",
@@ -408,7 +448,8 @@
       "origine": "Argentina",
       "difficolta": 2,
       "descrizione": "Corpo grigio-verde con coste pronunciate e fiori che variano dal bianco al rosa pallido.",
-      "immagine": "imgs/gymnocalycium-ferrarii.jpg"
+      "immagine": "imgs/gymnocalycium-ferrarii.jpg",
+      "enable": false
     },
     {
       "nome": "Melocactus bahiensis",
@@ -418,7 +459,8 @@
       "origine": "Brasile (Bahia)",
       "difficolta": 4,
       "descrizione": "Cactus globoso che sviluppa un 'cefalo' lanoso sulla sommità una volta raggiunta la maturità.",
-      "immagine": "imgs/melocactus-bahiensis.jpg"
+      "immagine": "imgs/melocactus-bahiensis.jpg",
+      "enable": false
     },
     {
       "nome": "Notocactus schlosseri",
@@ -428,7 +470,8 @@
       "origine": "Uruguay",
       "difficolta": 2,
       "descrizione": "Forma sferica con spine fitte color rame e fiori giallo brillante.",
-      "immagine": "imgs/notocactus-schlosseri.jpg"
+      "immagine": "imgs/notocactus-schlosseri.jpg",
+      "enable": false
     },
     {
       "nome": "Gymnocalycium quehlianum",
@@ -438,7 +481,8 @@
       "origine": "Argentina",
       "difficolta": 2,
       "descrizione": "Cactus solitario e schiacciato, noto per la sua resistenza e i fiori bianchi con gola rossa.",
-      "immagine": "imgs/gymnocalycium-quehlianum.jpg"
+      "immagine": "imgs/gymnocalycium-quehlianum.jpg",
+      "enable": false
     },
     {
       "nome": "Neoraimondia herzogiana",
@@ -448,7 +492,8 @@
       "tipo": "cactus",
       "difficolta": 2,
       "descrizione": "Imponente cactus colonnare che ramifica a candelabro. È noto per le sue areole giganti che continuano a crescere nel tempo.",
-      "immagine": "imgs/Neoraimondia_herzogiana.jpeg"
+      "immagine": "imgs/Neoraimondia_herzogiana.jpeg",
+      "enable": true
     },
     {
       "nome": "Crassula marneriana",
@@ -458,7 +503,8 @@
       "tipo": "succulenta",
       "difficolta": 1,
       "descrizione": "Splendida succulenta con foglie carnose e impilate che ricordano una collana di perline. Tende ad assumere sfumature rosate se esposta al sole.",
-      "immagine": "imgs/Crassula_marneriana.jpeg"
+      "immagine": "imgs/Crassula_marneriana.jpeg",
+      "enable": true
     },
     {
       "nome": "Mammillaria karwinskiana",
@@ -468,7 +514,8 @@
       "origine": "Messico",
       "difficolta": 1,
       "descrizione": "Cactus globoso che tende a dividersi dicotomicamente formando splendide teste bicefale. Presenta una linfa lattiginosa e fiori color crema con venature purpuree.",
-      "immagine": "imgs/Mammillaria_karwinskiana_subsp_karwinskiana.jpeg"
+      "immagine": "imgs/Mammillaria_karwinskiana_subsp_karwinskiana.jpeg",
+      "enable": true
     },
     {
       "nome": "Rebutia pygmaea",
@@ -478,7 +525,8 @@
       "origine": "Argentina e Bolivia",
       "difficolta": 2,
       "descrizione": "Cactus nano di forma cilindrica che cresce in piccoli agglomerati densi. È molto apprezzato per le sue fioriture precoci e abbondanti di colore rosso-arancio.",
-      "immagine": "imgs/Rebutia_pygmaea.jpeg"
+      "immagine": "imgs/Rebutia_pygmaea.jpeg",
+      "enable": true
     },
     {
       "nome": "Sulcorebutia sunrise",
@@ -488,7 +536,8 @@
       "origine": "Bolivia",
       "difficolta": 2,
       "descrizione": "Splendida variante di Sulcorebutia caratterizzata da una fioritura spettacolare con petali sfumati che vanno dal giallo brillante all'arancione, ricordando i colori dell'alba.",
-      "immagine": "imgs/Sulcorebutia_alba.jpeg"
+      "immagine": "imgs/Sulcorebutia_alba.jpeg",
+      "enable": true
     },
     {
       "nome": "Kalanchoe blossfeldiana",
@@ -498,7 +547,8 @@
       "origine": "Madagascar",
       "difficolta": 1,
       "descrizione": "Popolare succulenta apprezzata per la prolungata e vivace fioritura in molteplici colori e per le foglie lucide e carnose.",
-      "immagine": "imgs/Kalanchoe_Blossfeldiana.jpeg"
+      "immagine": "imgs/Kalanchoe_Blossfeldiana.jpeg",
+      "enable": true
     },
     {
       "nome": "Coryphantha sulcata",
@@ -508,7 +558,8 @@
       "origine": "USA (Texas) e Messico",
       "difficolta": 2,
       "descrizione": "Cactus cespitoso con spessi tubercoli solcati, abbondante lanosità apicale e spettacolari fiori gialli dal centro dorato.",
-      "immagine": "imgs/Coryphantha_Sulcata.jpeg"
+      "immagine": "imgs/Coryphantha_Sulcata.jpeg",
+      "enable": true
     },
     {
       "nome": "Gymnocalycium anisitsii",
@@ -518,7 +569,8 @@
       "origine": "Paraguay e Bolivia",
       "difficolta": 2,
       "descrizione": "Cactus globoso caratterizzato da grandi fiori imbutiformi con sfumature delicate dal bianco al rosa carne e fusto con coste marcate.",
-      "immagine": "imgs/Gymnocalycium_Anisitsii.jpeg"
+      "immagine": "imgs/Gymnocalycium_Anisitsii.jpeg",
+      "enable": true
     }
   ]
 }
